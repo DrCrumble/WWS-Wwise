@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E81734E6-C624-40F7-B645-1F192F02D52A}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E81734E6-C624-40F7-B645-1F192F02D52A}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Meteo" ID="{F20E7B21-7DB0-46FF-95EF-4CAA67AEE689}" ShortID="990869413">
+					<PropertyList>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="WindCalm_bed_01" ID="{A2B208E9-D2F7-496C-9522-24C0D7362D10}" ShortID="412995610">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WindCalm_bed_01" ID="{D5E00C31-2F6A-4765-B550-BBCCCB7C956C}" ShortID="123411021">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WindCalm_bed_01" ID="{2A2E01EE-6FC6-43BA-9422-252D03D75A07}">
+											<Language>SFX</Language>
+											<AudioFile>WindCalm_bed_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="64469936"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WindCalm_bed_01" ID="{2A2E01EE-6FC6-43BA-9422-252D03D75A07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="WindCalm_bed_02" ID="{FA70A87B-C912-479D-8B4B-AADC02B7D61A}" ShortID="919822927">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WindCalm_bed_02" ID="{694A184E-745D-41E2-B217-85FF2FA23FFC}" ShortID="539647380">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WindCalm_bed_02" ID="{7E998CF4-59A8-4491-951E-69CDD6706B1B}">
+											<Language>SFX</Language>
+											<AudioFile>WindCalm_bed_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="191198204"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WindCalm_bed_02" ID="{7E998CF4-59A8-4491-951E-69CDD6706B1B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="WindCalm_bed_03" ID="{7FFE9F2B-1A55-4F2F-8507-D678F54241AD}" ShortID="148173571">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WindCalm_bed_03" ID="{E7B7CBEB-56AC-44B7-9D06-8477C7D1DE80}" ShortID="628650847">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WindCalm_bed_03" ID="{95CFC250-7246-4279-9521-22A1597DAAC5}">
+											<Language>SFX</Language>
+											<AudioFile>WindCalm_bed_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="385298018"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WindCalm_bed_03" ID="{95CFC250-7246-4279-9521-22A1597DAAC5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="WindCalm_RND" ID="{2EEEAE7B-8BF1-4E5A-9AFD-9771C5B51EC7}" ShortID="162824787">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FAA34FA6-CFC7-4D12-95D5-A63FD3566453}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="WindCalm_RND" ID="{1DC6AFBD-2D06-47E1-83AE-CB109A3F7FB3}" ShortID="407923320">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C1043DEA-0D77-4E6D-9AED-6486518F9988}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="WindCalm_RND_01" ID="{E99D25EB-73EF-4B24-8D5A-E623FFFA9464}" ShortID="307727689">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindCalm_RND_01" ID="{3C949C45-8D06-4E38-BD77-FE733374F980}">
+													<Language>SFX</Language>
+													<AudioFile>WindCalm_RND_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="321907225"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WindCalm_RND_01" ID="{3C949C45-8D06-4E38-BD77-FE733374F980}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindCalm_RND_02" ID="{DB3DC1F1-BDB0-4E0F-A9F5-E1162C10D17C}" ShortID="322570318">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindCalm_RND_02" ID="{6665FB4B-5DFF-46D1-90D9-01AB22581FDE}">
+													<Language>SFX</Language>
+													<AudioFile>WindCalm_RND_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="523615679"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WindCalm_RND_02" ID="{6665FB4B-5DFF-46D1-90D9-01AB22581FDE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindCalm_RND_03" ID="{B6096AB9-01B2-4839-8ABB-B1A3515C8D8F}" ShortID="986009764">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindCalm_RND_03" ID="{900E2BE3-30CA-476C-AA90-71EC38A7C578}">
+													<Language>SFX</Language>
+													<AudioFile>WindCalm_RND_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="761841468"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WindCalm_RND_03" ID="{900E2BE3-30CA-476C-AA90-71EC38A7C578}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindCalm_RND_04" ID="{0B18EE22-3CD4-4055-9D84-B01CE004F409}" ShortID="1001733451">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindCalm_RND_04" ID="{D48AA7B7-B459-47B0-93AA-8B3C406D8300}">
+													<Language>SFX</Language>
+													<AudioFile>WindCalm_RND_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="671515045"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WindCalm_RND_04" ID="{D48AA7B7-B459-47B0-93AA-8B3C406D8300}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindCalm_RND_05" ID="{A905A45E-E71C-4F20-A7D2-980E6FC5210A}" ShortID="846498151">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindCalm_RND_05" ID="{74834BFA-94DE-4650-A7C1-3C680EB8F8F3}">
+													<Language>SFX</Language>
+													<AudioFile>WindCalm_RND_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="409240763"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WindCalm_RND_05" ID="{74834BFA-94DE-4650-A7C1-3C680EB8F8F3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindCalm_RND_06" ID="{1BF1C5C6-2474-4A8B-A914-7474162D211E}" ShortID="597548682">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindCalm_RND_06" ID="{5CFC7C5E-7B9B-4BE0-AF41-379F0AF0A7C0}">
+													<Language>SFX</Language>
+													<AudioFile>WindCalm_RND_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="599291756"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WindCalm_RND_06" ID="{5CFC7C5E-7B9B-4BE0-AF41-379F0AF0A7C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindCalm_RND_07" ID="{0473A040-2539-42DF-B23A-64E793741EDE}" ShortID="585595655">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindCalm_RND_07" ID="{8DA82632-1692-46E8-89E1-AD0D1D700BEC}">
+													<Language>SFX</Language>
+													<AudioFile>WindCalm_RND_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="710386532"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WindCalm_RND_07" ID="{8DA82632-1692-46E8-89E1-AD0D1D700BEC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindCalm_RND_08" ID="{E1AF718B-C2D1-45B8-9F74-89D485A92808}" ShortID="1048832442">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindCalm_RND_08" ID="{43EA8BFF-3489-4F7A-81AB-046BFE2D6A46}">
+													<Language>SFX</Language>
+													<AudioFile>WindCalm_RND_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="428881949"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WindCalm_RND_08" ID="{43EA8BFF-3489-4F7A-81AB-046BFE2D6A46}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindCalm_RND_09" ID="{E85BA562-E282-454A-BB6C-B93A9952F41F}" ShortID="189449202">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindCalm_RND_09" ID="{DEEDBA78-AFE8-4BF1-B0BF-12BDE4ABA457}">
+													<Language>SFX</Language>
+													<AudioFile>WindCalm_RND_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="493529709"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WindCalm_RND_09" ID="{DEEDBA78-AFE8-4BF1-B0BF-12BDE4ABA457}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindCalm_RND_10" ID="{0A335781-282B-47A3-B20D-23D2A0A9A731}" ShortID="650988742">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindCalm_RND_10" ID="{327C9D12-519F-4EC5-9CE2-274F010851C9}">
+													<Language>SFX</Language>
+													<AudioFile>WindCalm_RND_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="101047422"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WindCalm_RND_10" ID="{327C9D12-519F-4EC5-9CE2-274F010851C9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WindCalm_RND_11" ID="{74597174-A6B0-40E3-B139-15F5E5AB2287}" ShortID="912508177">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WindCalm_RND_11" ID="{FBCC3C57-26CF-4B89-8654-6BF2B4D4E03F}">
+													<Language>SFX</Language>
+													<AudioFile>WindCalm_RND_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="244014161"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WindCalm_RND_11" ID="{FBCC3C57-26CF-4B89-8654-6BF2B4D4E03F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{DBA6EE96-E4EE-4F1E-A19F-AC8A34CB5ACA}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-1.43773881688958E-14"/>
+												<Property Name="PanY" Type="Real64" Value="6.55031584528842E-15"/>
+											</PropertyList>
+										</Panner>
+										<Position Name="" ID="{4D1B4E92-5620-449B-9820-E9F8830300A0}">
+											<PropertyList>
+												<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="WindCalm_RND_Path" ID="{C1A4A290-506A-40C6-9F3B-F78FBDF09B8B}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="15000"/>
+														<Property Name="RandomX" Type="Real64" Value="100"/>
+														<Property Name="RandomY" Type="Real64" Value="100"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="WindCalm_RND" ID="{1DC6AFBD-2D06-47E1-83AE-CB109A3F7FB3}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Rain_Clacs" ID="{99D45AB5-B1C5-452E-99A5-DFE68F5D855A}" ShortID="444025450">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E9E7AB73-4A3C-4562-98FF-4065838A915F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rain_Clacs" ID="{010E08CA-36A9-4F55-A97B-AD6074356CD0}" ShortID="271184416">
+									<PropertyList>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Clacs" ID="{6A111D51-8408-45B6-817C-4BDB73A09A24}">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Clacs.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="331587871"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{B3D79154-3D0E-409C-B9C9-A68093B781B7}"/>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Clacs" ID="{6A111D51-8408-45B6-817C-4BDB73A09A24}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Rain_Clics" ID="{40E0246D-FAB0-423C-8F63-DD5D3D414367}" ShortID="310427760">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A3D7103D-108B-499B-9EFE-1B4C7E73BA37}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rain_Clics" ID="{A426E19E-65DF-4F30-9E47-9139A475C091}" ShortID="873258413">
+									<PropertyList>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Clics" ID="{2AAF139B-A98E-4F16-BDBE-902D39900B23}">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Clics.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="778747864"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{A8AEEF8C-0B51-4134-9B9C-9474B491BE78}"/>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Clics" ID="{2AAF139B-A98E-4F16-BDBE-902D39900B23}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{A14B01F4-87D8-4E63-8A3B-6BE029A710C7}"/>
+					</PositioningInfo>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
