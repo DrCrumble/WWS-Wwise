@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Meteo" ID="{B3F8DB62-9ACB-40A9-B35C-21A01DA5B4FE}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="5"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="5"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SaloonCrowd" ID="{0F427D0B-1592-4429-A415-DDDA64F82368}">
+					<PropertyList>
+						<Property Name="Max" Type="Real64" Value="200"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

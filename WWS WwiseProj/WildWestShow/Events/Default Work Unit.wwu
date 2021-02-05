@@ -3,9 +3,9 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{6CAA3B85-9EB9-4C54-BF6F-D043C5F171BC}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Meteo" ID="{AD70FBE2-E5CB-411B-9D6F-50318B241C2E}">
+				<Event Name="Play_Meteo" ID="{25977AA7-B0DD-4C86-9078-AE9464445FC4}">
 					<ChildrenList>
-						<Action Name="" ID="{BF48B72A-C283-4A36-9A8E-643575C1D0C6}" ShortID="692160918">
+						<Action Name="" ID="{3D681126-4FC5-45C7-A523-15661D179B31}" ShortID="692160919">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Meteo" ID="{F20E7B21-7DB0-46FF-95EF-4CAA67AEE689}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>

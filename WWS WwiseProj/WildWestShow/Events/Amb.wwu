@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Amb" ID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play01_Start" ID="{AD70FBE2-E5CB-411B-9D6F-50318B241C2E}">
+					<ChildrenList>
+						<Action Name="" ID="{646123C6-F1DF-4C02-A633-297977A57CDF}" ShortID="68484761">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Volume" Type="Real64" Value="-2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Meteo" ID="{F20E7B21-7DB0-46FF-95EF-4CAA67AEE689}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BF48B72A-C283-4A36-9A8E-643575C1D0C6}" ShortID="692160918">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Meteo" ID="{F20E7B21-7DB0-46FF-95EF-4CAA67AEE689}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{897AFC3C-06C4-4D67-B33C-3A9A98454F6C}" ShortID="697244941">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Meteo" ID="{B3F8DB62-9ACB-40A9-B35C-21A01DA5B4FE}" WorkUnitID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play15_CharacterChange_far" ID="{F8BCD51E-3C00-45D1-8174-34DA57728B06}">
+					<ChildrenList>
+						<Action Name="" ID="{D93DADF8-C9CD-46A4-96C6-F45981D64EB9}" ShortID="629922720">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CharacterChange_far" ID="{45C9FF6D-5D2A-4457-9453-3700B0659F08}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D67809E3-F5B4-44B7-BD81-73DEF59FE503}" ShortID="80352776">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CharacterChange_far" ID="{45C9FF6D-5D2A-4457-9453-3700B0659F08}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play10_Bar" ID="{81AEBC3F-7BF6-4573-B580-1E8A97F85A0A}">
+					<ChildrenList>
+						<Action Name="" ID="{EC3377D0-AC25-4491-ABC5-C53015C707EE}" ShortID="534933672">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SaloonCrowd" ID="{0F427D0B-1592-4429-A415-DDDA64F82368}" WorkUnitID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play12_Audience01" ID="{5E9E41AB-D27A-42E8-A0DD-B043D78ABDE2}">
+					<ChildrenList>
+						<Action Name="" ID="{4387CFE0-1420-4E70-A4CA-AE72439AED7A}" ShortID="85609347">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Applause_01" ID="{BCA41DA3-C9FD-49E4-8AD9-525BB4EB84E1}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play13_Audience02" ID="{A8F2CE14-ECBF-4740-BAA2-0475B448CB2C}">
+					<ChildrenList>
+						<Action Name="" ID="{45331C67-319A-45E9-BE24-25AB1D19CC65}" ShortID="67514929">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Applause_02" ID="{43B9A7EB-8A0B-4444-B4CF-1191E79054F2}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play18_Campfire_Off" ID="{B801BC5E-0882-4AEE-BBF6-74601B0D18D8}">
+					<ChildrenList>
+						<Action Name="" ID="{46CC7042-F20E-4806-B709-CA6F2AA6E6C3}" ShortID="420514272">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FirePlaceOff" ID="{CCD42B75-51EB-439C-BA6A-780DF5BB8CE1}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{963B119A-44E8-4D93-94F2-762A594F9A4F}" ShortID="912847797">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FirePlace" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0A10ECA5-591E-4806-A078-8345FC60C1D5}" ShortID="784265406">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play17_CampFire_Back" ID="{6A7D8162-3222-43F7-A194-7A3A02065E07}">
+					<ChildrenList>
+						<Action Name="" ID="{DC77D796-5421-4E47-9F1F-A4E12D4146E4}" ShortID="349806642">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Meteo" ID="{B3F8DB62-9ACB-40A9-B35C-21A01DA5B4FE}" WorkUnitID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AD6CDCE2-D77E-4F30-8611-FEEA09CF347F}" ShortID="781428121">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Meteo" ID="{F20E7B21-7DB0-46FF-95EF-4CAA67AEE689}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{334E0F2C-0001-4C19-B33E-26E12C878651}" ShortID="276152960">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Volume" Type="Real64" Value="-2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Meteo" ID="{F20E7B21-7DB0-46FF-95EF-4CAA67AEE689}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C72E4227-4A27-4073-8738-BF211A5AD71B}" ShortID="47637854">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FirePlace" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A00350FC-B945-4B80-8D44-07CF1A4546CD}" ShortID="587380525">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Saloon" ID="{46BD549C-5D0D-432B-AFB2-F943CAC24F7E}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play14_Audience03" ID="{560CF8E4-B594-446E-BF77-E07AC03D5A27}">
+					<ChildrenList>
+						<Action Name="" ID="{769DF783-CA9F-45CD-99D4-3DFA4FC56E66}" ShortID="528310108">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="200"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SaloonCrowd" ID="{0F427D0B-1592-4429-A415-DDDA64F82368}" WorkUnitID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AA430CEB-9945-4E00-8D01-C2D15208CD7A}" ShortID="781359078">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Applause_03" ID="{DF23B6A6-D9C0-45B5-91D4-ECD27536963F}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play09_SaloonLaughters" ID="{5619B62C-E4A7-4AA7-81BC-7D19A9DFD960}">
+					<ChildrenList>
+						<Action Name="" ID="{D5512AD1-185A-428E-B7E7-B95917C6187A}" ShortID="532380887">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Saloon_Laughters" ID="{FECDA191-E903-4AE4-B1C6-E8A1C822FAEC}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3B0CDCED-6299-477C-83D2-39AF31DB4A85}" ShortID="486929411">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Small_Switch" ID="{CA806384-BB87-4DD9-884C-25D7E6C00E23}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C40B44D1-5E2D-43C0-ABAF-97CEF4C25449}" ShortID="679064807">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Small_Switch" ID="{CA806384-BB87-4DD9-884C-25D7E6C00E23}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play05_CharacterChange" ID="{B83BDA82-FA43-4211-BAE6-9F8DDE469458}">
+					<ChildrenList>
+						<Action Name="" ID="{E8CEFAE5-0BDC-4EFD-9BF5-2811A6E5B675}" ShortID="816358572">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CharacterChange" ID="{AFD0020F-1D59-4894-BED9-3F3140FAC2C3}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play16_CharacterChange_far" ID="{B0485D65-B9BB-42E1-8E8D-A6835C85ECA7}">
+					<ChildrenList>
+						<Action Name="" ID="{687FBA83-4BE8-4400-BB78-1B92A5704E21}" ShortID="367700743">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Volume" Type="Real64" Value="-6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CharacterChange_far" ID="{45C9FF6D-5D2A-4457-9453-3700B0659F08}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9266CEDA-5B0A-4FBE-AF1A-B50FE8CECCA7}" ShortID="747929173">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CharacterChange_far" ID="{45C9FF6D-5D2A-4457-9453-3700B0659F08}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play03_Thunder" ID="{D6CA7AAE-D637-4660-BD6F-658AB523416F}">
+					<ChildrenList>
+						<Action Name="" ID="{D415C479-DAD4-4C32-9239-5803F414413E}" ShortID="498912299">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thunder" ID="{4A024970-8E40-42D4-AE21-58270CB091EB}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A176CD75-BDBD-4594-A834-E75224CB9493}" ShortID="159778680">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="65"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Meteo" ID="{B3F8DB62-9ACB-40A9-B35C-21A01DA5B4FE}" WorkUnitID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0F1FA160-7BAC-4851-8DA0-89D37D063860}" ShortID="891623903">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FirePlace" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play04_DeadWood" ID="{3313328F-0A34-4315-A04E-8938D302C895}">
+					<ChildrenList>
+						<Action Name="" ID="{A53A5C8B-68CE-45B7-81AF-6241466223F9}" ShortID="974961032">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DeadWood" ID="{569CE175-016C-4E1D-9AF7-29FCC2092631}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F0E4D6A3-57AB-43E9-BD49-E0C3195FF9B4}" ShortID="287670546">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DeadWood" ID="{569CE175-016C-4E1D-9AF7-29FCC2092631}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{13BB9BE6-0572-47EB-BB46-274BAF65C7DC}" ShortID="2544328">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+								<Property Name="Volume" Type="Real64" Value="-8"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Meteo" ID="{F20E7B21-7DB0-46FF-95EF-4CAA67AEE689}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4766DAEA-DCF6-4D6C-84F4-A6663CD09CB3}" ShortID="431821073">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="34"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WindCalm_RND" ID="{2EEEAE7B-8BF1-4E5A-9AFD-9771C5B51EC7}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4026A255-D30D-4809-8FEF-238647D2C9DA}" ShortID="80584255">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="BypassGameParameterInternalTransition" Type="bool" Value="True"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Meteo" ID="{B3F8DB62-9ACB-40A9-B35C-21A01DA5B4FE}" WorkUnitID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play07_BigSwitch_02" ID="{DFB638AF-9EAD-4AB7-B204-C52995DE3A40}">
+					<ChildrenList>
+						<Action Name="" ID="{25B580B1-1F47-4A78-9F72-AB30932552E4}" ShortID="1063795716">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigSwitch_02" ID="{40AFF60D-22CD-441A-994B-64899A2DBBE1}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C42A3006-57AF-41B6-99BA-A24C92545872}" ShortID="773424448">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Lowpass" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DeadWood" ID="{569CE175-016C-4E1D-9AF7-29FCC2092631}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play08_Amb_Saloon" ID="{DAD983C0-1470-4A6C-AFCE-B2D8753DA75D}">
+					<ChildrenList>
+						<Action Name="" ID="{30FC623C-C33F-485C-B12D-C26CF63A6D4C}" ShortID="296924510">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Volume" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_Creak" ID="{69A971A4-D0BE-4CEB-A2FE-668B0D065E18}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C02DB2CA-FA9A-4738-8D0C-A6952BA2D97D}" ShortID="922368479">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Volume" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_Rumble" ID="{E067763C-3F59-4C3D-88E2-AA40C718EF04}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{025E09F3-FF10-411D-AB1D-33452DE9B672}" ShortID="838253976">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SaloonCrowd" ID="{0F427D0B-1592-4429-A415-DDDA64F82368}" WorkUnitID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{116E1775-C403-4900-BB4A-0363A5F45C02}" ShortID="899676254">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Saloon" ID="{46BD549C-5D0D-432B-AFB2-F943CAC24F7E}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{783B3837-A389-4A05-A6E5-A1ABBB6DF90B}" ShortID="86755147">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DeadWood" ID="{569CE175-016C-4E1D-9AF7-29FCC2092631}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2B907F05-7FC3-4EE7-8172-EA95DD800684}" ShortID="893648350">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Meteo" ID="{F20E7B21-7DB0-46FF-95EF-4CAA67AEE689}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AC39A143-4E2C-4853-BBC2-F95F6F1AEEAD}" ShortID="892302157">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Small_Switch" ID="{CA806384-BB87-4DD9-884C-25D7E6C00E23}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play02_CampFire" ID="{4322CCBC-DA4F-43D3-BEE2-736E18572162}">
+					<ChildrenList>
+						<Action Name="" ID="{5E081F1E-E90C-4D72-96ED-D6B79BCA56EA}" ShortID="698956548">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FirePlace" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play06_CharacterChange" ID="{5C4998EF-50DF-4F52-9AF7-3BBE11E2D3BA}">
+					<ChildrenList>
+						<Action Name="" ID="{02E94747-CAA0-4300-8419-6BF56743B6AF}" ShortID="329941188">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CharacterChange" ID="{AFD0020F-1D59-4894-BED9-3F3140FAC2C3}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play11_Scene" ID="{3B485E99-CCC6-4EFE-AAF2-D4E8266CF45C}">
+					<ChildrenList>
+						<Action Name="" ID="{78D4D5C3-9FE2-4E5A-9C2A-933C0979D250}" ShortID="352669358">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SaloonCrowd" ID="{0F427D0B-1592-4429-A415-DDDA64F82368}" WorkUnitID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{91256963-DC3D-4F70-BF8E-0B90A8F1D69E}" ShortID="1004509971">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Small_Switch" ID="{CA806384-BB87-4DD9-884C-25D7E6C00E23}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2FF359B2-4FC1-46D7-9107-A01FC9DC2381}" ShortID="599674834">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Small_Switch" ID="{CA806384-BB87-4DD9-884C-25D7E6C00E23}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C8F3DFF0-D2EF-456A-96C0-457928A65F41}" ShortID="430923787">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_Creak" ID="{69A971A4-D0BE-4CEB-A2FE-668B0D065E18}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{514FD026-9F9C-4668-BF21-AB24C48743FC}" ShortID="1047426362">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_Rumble" ID="{E067763C-3F59-4C3D-88E2-AA40C718EF04}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FC794FA3-575A-4404-93F4-6E6CB015BE74}" ShortID="466584082">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigSwitch_02" ID="{40AFF60D-22CD-441A-994B-64899A2DBBE1}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
