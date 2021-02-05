@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{68B02F93-D5C6-4C22-8AF0-A669FAD48C29}" SchemaVersion="97">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{68B02F93-D5C6-4C22-8AF0-A669FAD48C29}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{68B02F93-D5C6-4C22-8AF0-A669FAD48C29}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Music_Switch_Container" ID="{B50B2B53-DDEE-4C99-9487-9C84032B08A3}">
+					<ChildrenList>
+						<Switch Name="loop_01" ID="{2848FAF8-30FD-4FA9-AB4C-9EA8C5C5EF97}"/>
+						<Switch Name="loop_02" ID="{5859A605-E32F-4113-9ADE-D08B569BFE79}"/>
+						<Switch Name="oneshot_03" ID="{7E761839-2AD4-482D-9056-6CDDE325E2F6}"/>
+						<Switch Name="loop_04" ID="{8F4AD0A0-0C89-42BE-9D4B-BF3C1E9FB839}"/>
+						<Switch Name="loop_05" ID="{9E48FD47-A71F-4188-9061-FC3608941267}"/>
+						<Switch Name="loop_06" ID="{C904D9B6-D4CA-4D3C-9945-5B20EAC2F22A}"/>
+						<Switch Name="oneshot_07" ID="{A2C1985A-C66C-4AC4-965D-B84BF4160A84}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
