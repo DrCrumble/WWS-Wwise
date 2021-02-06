@@ -8,13 +8,13 @@
 						<MusicSwitchContainer Name="Music_Switch_Container" ID="{DE379BAA-A450-4642-849B-FA67D6797CC6}" ShortID="305739325">
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 								</Reference>
 								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 									<ObjectRef Name="New_Wwise_Parametric_EQ" ID="{3E3FD312-7F6F-4BF5-B177-91B5811D42ED}" WorkUnitID="{E98DC965-B2E5-4E94-812F-834E3B867662}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+									<ObjectRef Name="MUSIC" ID="{FF12D8DA-13D9-41AA-8FD1-0796BB89748A}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -44,6 +44,28 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="music_wws_loop_01" ID="{12A973C3-8755-482A-900D-BE766840B8B0}" ShortID="638282627">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LookAheadTime" Type="int16">
+															<ValueList>
+																<Value>300</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PreFetchLength" Type="int16">
+															<ValueList>
+																<Value>300</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
@@ -207,6 +229,13 @@
 									</Playlist>
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="music_playlist_02" ID="{EF003793-41C9-497A-92D7-706E33E24CF2}" ShortID="894723841">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
@@ -232,6 +261,28 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="music_wws_loop_02" ID="{10942E4A-DC29-471B-8C52-A8A35AF46D35}" ShortID="761295980">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LookAheadTime" Type="int16">
+															<ValueList>
+																<Value>300</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PreFetchLength" Type="int16">
+															<ValueList>
+																<Value>300</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
@@ -480,6 +531,13 @@
 									</Playlist>
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="music_playlist_04" ID="{BC4A4D31-72CB-4C88-8A98-44EED14A25CA}" ShortID="23115147">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
@@ -505,6 +563,28 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="music_wws_loop_04" ID="{85818A67-4565-46D6-BF48-AC978FA8D236}" ShortID="292830541">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LookAheadTime" Type="int16">
+															<ValueList>
+																<Value>300</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PreFetchLength" Type="int16">
+															<ValueList>
+																<Value>300</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
@@ -695,7 +775,7 @@
 																					</Point>
 																					<Point>
 																						<XPos>15.65217</XPos>
-																						<YPos>-0</YPos>
+																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
 																				</PointList>
@@ -749,6 +829,13 @@
 									</Playlist>
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="music_playlist_06" ID="{BDDC6B0C-3B51-4E77-9B78-AD258C572E34}" ShortID="1016130236">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
@@ -774,6 +861,28 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="music_wws_loop_06" ID="{0E05965B-1680-4140-BB4C-2308E2C314D2}" ShortID="596796775">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLantency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LookAheadTime" Type="int16">
+															<ValueList>
+																<Value>300</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PreFetchLength" Type="int16">
+															<ValueList>
+																<Value>300</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
@@ -853,6 +962,13 @@
 									</Playlist>
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="music_playlist_07" ID="{03469BF7-1E11-4807-B27C-F4CFA2511B7F}" ShortID="31657267">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>

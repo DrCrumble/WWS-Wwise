@@ -1,0 +1,115 @@
+Event	ID	Name			Wwise Object Path	Notes
+	261113199	Play04_DeadWood			\Amb\Play04_DeadWood	
+	275887120	Play07_BigSwitch_02			\Amb\Play07_BigSwitch_02	
+	476313348	Play09_SaloonLaughters			\Amb\Play09_SaloonLaughters	
+	1035301078	Play12_Audience01			\Amb\Play12_Audience01	
+	1134602042	Play18_Campfire_Off			\Amb\Play18_Campfire_Off	
+	1211667078	Play13_Audience02			\Amb\Play13_Audience02	
+	1737310914	Play10_Bar			\Amb\Play10_Bar	
+	2076417930	Play05_CharacterChange			\Amb\Play05_CharacterChange	
+	2387831653	Play06_CharacterChange			\Amb\Play06_CharacterChange	
+	2906734629	Play08_Amb_Saloon			\Amb\Play08_Amb_Saloon	
+	2981340119	Play03_Thunder			\Amb\Play03_Thunder	
+	3218289023	Play01_Start			\Amb\Play01_Start	
+	3395762738	Play14_Audience03			\Amb\Play14_Audience03	
+	3819723224	Play11_Scene			\Amb\Play11_Scene	
+	3870832171	Play02_CampFire			\Amb\Play02_CampFire	
+	3909470905	Play17_CampFire_Back			\Amb\Play17_CampFire_Back	
+	3927665067	Play15_CharacterChange_far			\Amb\Play15_CharacterChange_far	
+	4013042024	Play16_CharacterChange_far			\Amb\Play16_CharacterChange_far	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1445190757	Music_Switch_Container			\Default Work Unit\Music_Switch_Container	
+
+Switch	ID	Name	Switch Group			Notes
+	2222013521	oneshot_03	Music_Switch_Container			
+	2222013525	oneshot_07	Music_Switch_Container			
+	4290453368	loop_02	Music_Switch_Container			
+	4290453371	loop_01	Music_Switch_Container			
+	4290453372	loop_06	Music_Switch_Container			
+	4290453374	loop_04	Music_Switch_Container			
+	4290453375	loop_05	Music_Switch_Container			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2154312024	SaloonCrowd			\Default Work Unit\SaloonCrowd	
+	2406858633	Meteo			\Default Work Unit\Meteo	
+
+Effect plug-ins	ID	Name	Type				Notes
+	4180247629	New_Wwise_Parametric_EQ	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	88445299	Applause_02	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Applause_08_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Applause_02		327470
+	100135956	music_wws_loop_02	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_loop_02_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_02\music_wws_loop_02\music_wws_loop_02		6074
+	101047422	WindCalm_RND_10	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_10_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_10		40237
+	118248338	BarCrowd_Small_06	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\BarCrowd_Small_06_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\Crowd\BarCrowd_Small_06		453510
+	126668870	DeadWood_Crow-002	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\DeadWood_Crow-002_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\DeadWood\Crow\DeadWood_Crow-002		29041
+	164684078	Bar_RND_Creak_14	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Creak_14_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Creak\RND_Creak\Bar_RND_Creak_14		7559
+	179694935	Bar_RND_Rumble_04	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Rumble_04_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Rumble\RND_Rumble\Bar_RND_Rumble_04		38497
+	188281029	Bar_RND_Rumble_08	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Rumble_08_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Rumble\RND_Rumble\Bar_RND_Rumble_08		17527
+	242505427	CharacterChange	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\CharacterChange_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharacterChange		27680
+	244014161	WindCalm_RND_11	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_11_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_11		39775
+	265323038	Bar_RND_Rumble_05	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Rumble_05_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Rumble\RND_Rumble\Bar_RND_Rumble_05		14241
+	269659017	Bar_RND_Creak_16	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Creak_16_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Creak\RND_Creak\Bar_RND_Creak_16		9579
+	269971275	music_wws_loop_06	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_loop_06_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_06\music_wws_loop_06\music_wws_loop_06		6727
+	315667988	Bar_RND_Creak_13	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Creak_13_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Creak\RND_Creak\Bar_RND_Creak_13		7292
+	319560757	BarCrowd_Small_05	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\BarCrowd_Small_05_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\Crowd\BarCrowd_Small_05		386098
+	321907225	WindCalm_RND_01	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_01_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_01		61245
+	340432769	Bar_RND_Creak_12	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Creak_12_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Creak\RND_Creak\Bar_RND_Creak_12		8605
+	351221942	BarCrowd_Small_03	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\BarCrowd_Small_03_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\QuietCrowd\BarCrowd_Small_03		586871
+	374025400	DeadWood_Crow-003	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\DeadWood_Crow-003_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\DeadWood\Crow\DeadWood_Crow-003		31984
+	409240763	WindCalm_RND_05	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_05_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_05		48106
+	409667137	BigSwitch_01	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\BigSwitch_01_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small_Switch\BigSwitch_01		61852
+	428881949	WindCalm_RND_08	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_08_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_08		36493
+	470739845	music_wws_loop_04	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_loop_04_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_04\music_wws_loop_04\music_wws_loop_04		2482
+	493529709	WindCalm_RND_09	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_09_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_09		26253
+	499572523	Thunder	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Thunder_4BD17BDE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Thunder		5442
+	523615679	WindCalm_RND_02	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_02_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_02		153631
+	534446168	DeadWood_Crow-004	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\DeadWood_Crow-004_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\DeadWood\Crow\DeadWood_Crow-004		50566
+	544806464	FirePlaceOff	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\FirePlaceOff_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\FirePlaceOff		200983
+	599291756	WindCalm_RND_06	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_06_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_06		86012
+	604060058	DeadWood_Crow-005	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\DeadWood_Crow-005_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\DeadWood\Crow\DeadWood_Crow-005		60373
+	634983665	BarCrowd_Small_04	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\BarCrowd_Small_04_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\Crowd\BarCrowd_Small_04		142441
+	646136583	music_wws_loop_intro_05	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_loop_intro_05_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_05\music_wws_loop_intro_05\music_wws_loop_intro_05		286587
+	652445581	music_wws_loop_01	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_loop_01_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_01\music_wws_loop_01\music_wws_loop_01		2340
+	652807454	Applause_01	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Applause_07_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Applause_01		458089
+	668190658	Applause_03	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Applause_09_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Applause_03		750312
+	671515045	WindCalm_RND_04	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_04_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_04		42391
+	710386532	WindCalm_RND_07	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_07_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_07		86124
+	711788411	BigSwitch_02	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\BigSwitch_02_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigSwitch_02		63135
+	717222871	Saloon_Laughters	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Saloon_Laughters_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Saloon_Laughters		172592
+	718980043	Bar_RND_Rumble_10	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Rumble_10_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Rumble\RND_Rumble\Bar_RND_Rumble_10		16677
+	723150243	Bar_RND_Creak_17	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Creak_17_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Creak\RND_Creak\Bar_RND_Creak_17		10660
+	734260052	BigSwitch_04	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\BigSwitch_04_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small_Switch\BigSwitch_04		65783
+	738925649	Bar_RND_Creak_15	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Creak_15_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Creak\RND_Creak\Bar_RND_Creak_15		7459
+	761841468	WindCalm_RND_03	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_03_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_03		32539
+	762772136	BigSwitch_03	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\BigSwitch_03_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small_Switch\BigSwitch_03		61216
+	792389771	Bar_RND_Rumble_09	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Rumble_09_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Rumble\RND_Rumble\Bar_RND_Rumble_09		15939
+	835105814	CharacterChange_far	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\CharacterChange_far_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\CharacterChange_far		33652
+	880561992	DeadWood_Crow-001	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\DeadWood_Crow-001_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\DeadWood\Crow\DeadWood_Crow-001		36399
+	885502688	BarCrowd_Small_02	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\BarCrowd_Small_02_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\Crowd\BarCrowd_Small_02		247728
+	906585474	Bar_RND_Creak_11	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Creak_11_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Creak\RND_Creak\Bar_RND_Creak_11		6464
+	951157510	BarCrowd_Small_01	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\BarCrowd_Small_01_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\Crowd\BarCrowd_Small_01		257806
+	988353875	Bar_RND_Rumble_06	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Rumble_06_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Rumble\RND_Rumble\Bar_RND_Rumble_06		14853
+	1005162567	Bar_RND_Rumble_07	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Rumble_07_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Rumble\RND_Rumble\Bar_RND_Rumble_07		19211
+	1015873701	music_wws_oneshot_03	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_oneshot_03_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_03\music_wws_oneshot_03\music_wws_oneshot_03		155342
+	1046751901	music_wws_oneshot_07_end	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_oneshot_07_end_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_07\music_wws_oneshot_07_end\music_wws_oneshot_07_end		214539
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	28064941	DeadWoodLoop	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\DeadWoodLoop_C1F52A07.wem	28064941.wem	\Actor-Mixer Hierarchy\Default Work Unit\DeadWood\AmbLoop\DeadWoodLoop	
+	64469936	WindCalm_bed_01	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_bed_01_C1F52A07.wem	64469936.wem	\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_bed_01\WindCalm_bed_01	
+	100135956	music_wws_loop_02	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_loop_02_3D1D1BA5.wem	100135956.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_02\music_wws_loop_02\music_wws_loop_02	
+	191198204	WindCalm_bed_02	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_bed_02_C1F52A07.wem	191198204.wem	\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_bed_02\WindCalm_bed_02	
+	269433180	RND_Dist_Thunder_05	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\RND_Dist_Thunder_05_C1F52A07.wem	269433180.wem	\Actor-Mixer Hierarchy\Default Work Unit\Meteo\RND_Thunder\RND_Thunder\RND_Dist_Thunder_05	
+	269971275	music_wws_loop_06	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_loop_06_3D1D1BA5.wem	269971275.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_06\music_wws_loop_06\music_wws_loop_06	
+	331587871	Rain_Clacs	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Rain_Clacs_C1F52A07.wem	331587871.wem	\Actor-Mixer Hierarchy\Default Work Unit\Meteo\Rain_Clacs\Rain_Clacs	
+	385298018	WindCalm_bed_03	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_bed_03_C1F52A07.wem	385298018.wem	\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_bed_03\WindCalm_bed_03	
+	470739845	music_wws_loop_04	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_loop_04_3D1D1BA5.wem	470739845.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_04\music_wws_loop_04\music_wws_loop_04	
+	481946433	RND_Dist_Thunder_07	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\RND_Dist_Thunder_07_C1F52A07.wem	481946433.wem	\Actor-Mixer Hierarchy\Default Work Unit\Meteo\RND_Thunder\RND_Thunder\RND_Dist_Thunder_07	
+	497904445	FirePlace	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\FirePlace_3D1D1BA5.wem	497904445.wem	\Actor-Mixer Hierarchy\Default Work Unit\FirePlace	
+	499572523	Thunder	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Thunder_4BD17BDE.wem	499572523.wem	\Actor-Mixer Hierarchy\Default Work Unit\Thunder	
+	616108785	RND_Dist_Thunder_04	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\RND_Dist_Thunder_04_C1F52A07.wem	616108785.wem	\Actor-Mixer Hierarchy\Default Work Unit\Meteo\RND_Thunder\RND_Thunder\RND_Dist_Thunder_04	
+	652445581	music_wws_loop_01	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_loop_01_3D1D1BA5.wem	652445581.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_01\music_wws_loop_01\music_wws_loop_01	
+	724256694	RND_Dist_Thunder_06	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\RND_Dist_Thunder_06_C1F52A07.wem	724256694.wem	\Actor-Mixer Hierarchy\Default Work Unit\Meteo\RND_Thunder\RND_Thunder\RND_Dist_Thunder_06	
+	757574604	SaloonCrowdMedium	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\SaloonCrowdMedium_3D1D1BA5.wem	757574604.wem	\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\SaloonCrowdMedium	
+	778747864	Rain_Clics	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Rain_Clics_C1F52A07.wem	778747864.wem	\Actor-Mixer Hierarchy\Default Work Unit\Meteo\Rain_Clics\Rain_Clics	
+
