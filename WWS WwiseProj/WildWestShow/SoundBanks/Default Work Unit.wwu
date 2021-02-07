@@ -19,7 +19,7 @@
 						<ObjectRef Name="Play14_Applause_02" ID="{A8F2CE14-ECBF-4740-BAA2-0475B448CB2C}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play08_Amb_Saloon" ID="{DAD983C0-1470-4A6C-AFCE-B2D8753DA75D}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play09_SaloonLaughters" ID="{5619B62C-E4A7-4AA7-81BC-7D19A9DFD960}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play07_BigSwitch_02" ID="{DFB638AF-9EAD-4AB7-B204-C52995DE3A40}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play07_DoraAppears" ID="{DFB638AF-9EAD-4AB7-B204-C52995DE3A40}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play19_Campfire_Off" ID="{B801BC5E-0882-4AEE-BBF6-74601B0D18D8}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play11_Scene" ID="{3B485E99-CCC6-4EFE-AAF2-D4E8266CF45C}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play06_CharacterChange" ID="{5C4998EF-50DF-4F52-9AF7-3BBE11E2D3BA}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>

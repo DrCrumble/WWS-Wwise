@@ -85,7 +85,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="108047357">
+		<SoundBank Id="3161908922" Language="SFX" Hash="4159491737">
 			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
 			<ShortName>MAIN</ShortName>
 			<Path>MAIN.bnk</Path>
@@ -336,7 +336,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="275887120" Name="Play07_BigSwitch_02" ObjectPath="\Events\Amb\Play07_BigSwitch_02">
+				<Event Id="2557995451" Name="Play07_DoraAppears" ObjectPath="\Events\Amb\Play07_DoraAppears">
 					<IncludedMemoryFiles>
 						<File Id="711788411" Language="SFX">
 							<ShortName>BigSwitch_02.wav</ShortName>

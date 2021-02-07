@@ -538,7 +538,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play07_BigSwitch_02" ID="{DFB638AF-9EAD-4AB7-B204-C52995DE3A40}">
+				<Event Name="Play07_DoraAppears" ID="{DFB638AF-9EAD-4AB7-B204-C52995DE3A40}">
 					<ChildrenList>
 						<Action Name="" ID="{C08B01B0-2880-4ADC-A510-FCBC1589E13E}" ShortID="476429496">
 							<PropertyList>

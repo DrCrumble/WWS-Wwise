@@ -1,7 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	220234965	Play19_Campfire_Off			\Amb\Play19_Campfire_Off	
 	261113199	Play04_DeadWood			\Amb\Play04_DeadWood	
-	275887120	Play07_BigSwitch_02			\Amb\Play07_BigSwitch_02	
 	322016769	Play17_CharacterChange_far			\Amb\Play17_CharacterChange_far	
 	476313348	Play09_SaloonLaughters			\Amb\Play09_SaloonLaughters	
 	1737310914	Play10_Bar			\Amb\Play10_Bar	
@@ -9,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2387831653	Play06_CharacterChange			\Amb\Play06_CharacterChange	
 	2482240631	Play13_Applause_01			\Amb\Play13_Applause_01	
 	2498846335	Play15_Applause_03			\Amb\Play15_Applause_03	
+	2557995451	Play07_DoraAppears			\Amb\Play07_DoraAppears	
 	2906734629	Play08_Amb_Saloon			\Amb\Play08_Amb_Saloon	
 	2981340119	Play03_Thunder			\Amb\Play03_Thunder	
 	3187641986	Play18_CampFire_Back			\Amb\Play18_CampFire_Back	
