@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\</ProjectRoot>
+		<SourceFilesRoot>E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="28064941" Language="SFX">
+			<ShortName>DeadWoodLoop.wav</ShortName>
+			<Path>SFX\DeadWoodLoop_C1F52A07.wem</Path>
+		</File>
+		<File Id="64469936" Language="SFX">
+			<ShortName>WindCalm_bed_01.wav</ShortName>
+			<Path>SFX\WindCalm_bed_01_C1F52A07.wem</Path>
+		</File>
+		<File Id="100135956" Language="SFX">
+			<ShortName>music_wws_loop_02.wav</ShortName>
+			<Path>SFX\music_wws_loop_02_3D1D1BA5.wem</Path>
+		</File>
+		<File Id="191198204" Language="SFX">
+			<ShortName>WindCalm_bed_02.wav</ShortName>
+			<Path>SFX\WindCalm_bed_02_C1F52A07.wem</Path>
+		</File>
+		<File Id="269433180" Language="SFX">
+			<ShortName>RND_Dist_Thunder_05.wav</ShortName>
+			<Path>SFX\RND_Dist_Thunder_05_C1F52A07.wem</Path>
+		</File>
+		<File Id="269971275" Language="SFX">
+			<ShortName>music_wws_loop_06.wav</ShortName>
+			<Path>SFX\music_wws_loop_06_3D1D1BA5.wem</Path>
+		</File>
+		<File Id="331587871" Language="SFX">
+			<ShortName>Rain_Clacs.wav</ShortName>
+			<Path>SFX\Rain_Clacs_C1F52A07.wem</Path>
+		</File>
+		<File Id="385298018" Language="SFX">
+			<ShortName>WindCalm_bed_03.wav</ShortName>
+			<Path>SFX\WindCalm_bed_03_C1F52A07.wem</Path>
+		</File>
+		<File Id="470739845" Language="SFX">
+			<ShortName>music_wws_loop_04.wav</ShortName>
+			<Path>SFX\music_wws_loop_04_3D1D1BA5.wem</Path>
+		</File>
+		<File Id="481946433" Language="SFX">
+			<ShortName>RND_Dist_Thunder_07.wav</ShortName>
+			<Path>SFX\RND_Dist_Thunder_07_C1F52A07.wem</Path>
+		</File>
+		<File Id="497904445" Language="SFX">
+			<ShortName>FirePlace.wav</ShortName>
+			<Path>SFX\FirePlace_3D1D1BA5.wem</Path>
+		</File>
+		<File Id="499572523" Language="SFX">
+			<ShortName>Thunder.wav</ShortName>
+			<Path>SFX\Thunder_4BD17BDE.wem</Path>
+		</File>
+		<File Id="616108785" Language="SFX">
+			<ShortName>RND_Dist_Thunder_04.wav</ShortName>
+			<Path>SFX\RND_Dist_Thunder_04_C1F52A07.wem</Path>
+		</File>
+		<File Id="652445581" Language="SFX">
+			<ShortName>music_wws_loop_01.wav</ShortName>
+			<Path>SFX\music_wws_loop_01_3D1D1BA5.wem</Path>
+		</File>
+		<File Id="724256694" Language="SFX">
+			<ShortName>RND_Dist_Thunder_06.wav</ShortName>
+			<Path>SFX\RND_Dist_Thunder_06_C1F52A07.wem</Path>
+		</File>
+		<File Id="757574604" Language="SFX">
+			<ShortName>SaloonCrowdMedium.wav</ShortName>
+			<Path>SFX\SaloonCrowdMedium_3D1D1BA5.wem</Path>
+		</File>
+		<File Id="778747864" Language="SFX">
+			<ShortName>Rain_Clics.wav</ShortName>
+			<Path>SFX\Rain_Clics_C1F52A07.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2756809008">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="108047357">
+			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
+			<ShortName>MAIN</ShortName>
+			<Path>MAIN.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3218289023" Name="Play01_Start" ObjectPath="\Events\Amb\Play01_Start">
+					<ReferencedStreamedFiles>
+						<File Id="64469936" Language="SFX">
+							<ShortName>WindCalm_bed_01.wav</ShortName>
+							<Path>SFX\WindCalm_bed_01_C1F52A07.wem</Path>
+						</File>
+						<File Id="100135956" Language="SFX">
+							<ShortName>music_wws_loop_02.wav</ShortName>
+							<Path>SFX\music_wws_loop_02_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="191198204" Language="SFX">
+							<ShortName>WindCalm_bed_02.wav</ShortName>
+							<Path>SFX\WindCalm_bed_02_C1F52A07.wem</Path>
+						</File>
+						<File Id="269433180" Language="SFX">
+							<ShortName>RND_Dist_Thunder_05.wav</ShortName>
+							<Path>SFX\RND_Dist_Thunder_05_C1F52A07.wem</Path>
+						</File>
+						<File Id="269971275" Language="SFX">
+							<ShortName>music_wws_loop_06.wav</ShortName>
+							<Path>SFX\music_wws_loop_06_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="331587871" Language="SFX">
+							<ShortName>Rain_Clacs.wav</ShortName>
+							<Path>SFX\Rain_Clacs_C1F52A07.wem</Path>
+						</File>
+						<File Id="385298018" Language="SFX">
+							<ShortName>WindCalm_bed_03.wav</ShortName>
+							<Path>SFX\WindCalm_bed_03_C1F52A07.wem</Path>
+						</File>
+						<File Id="470739845" Language="SFX">
+							<ShortName>music_wws_loop_04.wav</ShortName>
+							<Path>SFX\music_wws_loop_04_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="481946433" Language="SFX">
+							<ShortName>RND_Dist_Thunder_07.wav</ShortName>
+							<Path>SFX\RND_Dist_Thunder_07_C1F52A07.wem</Path>
+						</File>
+						<File Id="616108785" Language="SFX">
+							<ShortName>RND_Dist_Thunder_04.wav</ShortName>
+							<Path>SFX\RND_Dist_Thunder_04_C1F52A07.wem</Path>
+						</File>
+						<File Id="652445581" Language="SFX">
+							<ShortName>music_wws_loop_01.wav</ShortName>
+							<Path>SFX\music_wws_loop_01_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="724256694" Language="SFX">
+							<ShortName>RND_Dist_Thunder_06.wav</ShortName>
+							<Path>SFX\RND_Dist_Thunder_06_C1F52A07.wem</Path>
+						</File>
+						<File Id="778747864" Language="SFX">
+							<ShortName>Rain_Clics.wav</ShortName>
+							<Path>SFX\Rain_Clics_C1F52A07.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="100135956" Language="SFX">
+							<ShortName>music_wws_loop_02.wav</ShortName>
+							<Path>SFX\music_wws_loop_02_3D1D1BA5.wem</Path>
+							<PrefetchSize>6123</PrefetchSize>
+						</File>
+						<File Id="101047422" Language="SFX">
+							<ShortName>WindCalm_RND_10.wav</ShortName>
+							<Path>SFX\WindCalm_RND_10_C1F52A07.wem</Path>
+						</File>
+						<File Id="244014161" Language="SFX">
+							<ShortName>WindCalm_RND_11.wav</ShortName>
+							<Path>SFX\WindCalm_RND_11_C1F52A07.wem</Path>
+						</File>
+						<File Id="269971275" Language="SFX">
+							<ShortName>music_wws_loop_06.wav</ShortName>
+							<Path>SFX\music_wws_loop_06_3D1D1BA5.wem</Path>
+							<PrefetchSize>6780</PrefetchSize>
+						</File>
+						<File Id="321907225" Language="SFX">
+							<ShortName>WindCalm_RND_01.wav</ShortName>
+							<Path>SFX\WindCalm_RND_01_C1F52A07.wem</Path>
+						</File>
+						<File Id="409240763" Language="SFX">
+							<ShortName>WindCalm_RND_05.wav</ShortName>
+							<Path>SFX\WindCalm_RND_05_C1F52A07.wem</Path>
+						</File>
+						<File Id="428881949" Language="SFX">
+							<ShortName>WindCalm_RND_08.wav</ShortName>
+							<Path>SFX\WindCalm_RND_08_C1F52A07.wem</Path>
+						</File>
+						<File Id="470739845" Language="SFX">
+							<ShortName>music_wws_loop_04.wav</ShortName>
+							<Path>SFX\music_wws_loop_04_3D1D1BA5.wem</Path>
+							<PrefetchSize>2511</PrefetchSize>
+						</File>
+						<File Id="493529709" Language="SFX">
+							<ShortName>WindCalm_RND_09.wav</ShortName>
+							<Path>SFX\WindCalm_RND_09_C1F52A07.wem</Path>
+						</File>
+						<File Id="523615679" Language="SFX">
+							<ShortName>WindCalm_RND_02.wav</ShortName>
+							<Path>SFX\WindCalm_RND_02_C1F52A07.wem</Path>
+						</File>
+						<File Id="599291756" Language="SFX">
+							<ShortName>WindCalm_RND_06.wav</ShortName>
+							<Path>SFX\WindCalm_RND_06_C1F52A07.wem</Path>
+						</File>
+						<File Id="646136583" Language="SFX">
+							<ShortName>music_wws_loop_intro_05.wav</ShortName>
+							<Path>SFX\music_wws_loop_intro_05_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="652445581" Language="SFX">
+							<ShortName>music_wws_loop_01.wav</ShortName>
+							<Path>SFX\music_wws_loop_01_3D1D1BA5.wem</Path>
+							<PrefetchSize>2337</PrefetchSize>
+						</File>
+						<File Id="671515045" Language="SFX">
+							<ShortName>WindCalm_RND_04.wav</ShortName>
+							<Path>SFX\WindCalm_RND_04_C1F52A07.wem</Path>
+						</File>
+						<File Id="710386532" Language="SFX">
+							<ShortName>WindCalm_RND_07.wav</ShortName>
+							<Path>SFX\WindCalm_RND_07_C1F52A07.wem</Path>
+						</File>
+						<File Id="761841468" Language="SFX">
+							<ShortName>WindCalm_RND_03.wav</ShortName>
+							<Path>SFX\WindCalm_RND_03_C1F52A07.wem</Path>
+						</File>
+						<File Id="1015873701" Language="SFX">
+							<ShortName>music_wws_oneshot_03.wav</ShortName>
+							<Path>SFX\music_wws_oneshot_03_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="1046751901" Language="SFX">
+							<ShortName>music_wws_oneshot_07_end.wav</ShortName>
+							<Path>SFX\music_wws_oneshot_07_end_3D1D1BA5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2848FAF8-30FD-4FA9-AB4C-9EA8C5C5EF97}">
+							<Media>
+								<File Id="652445581"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5859A605-E32F-4113-9ADE-D08B569BFE79}">
+							<Media>
+								<File Id="100135956"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8F4AD0A0-0C89-42BE-9D4B-BF3C1E9FB839}">
+							<Media>
+								<File Id="470739845"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9E48FD47-A71F-4188-9061-FC3608941267}">
+							<Media>
+								<File Id="646136583"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C904D9B6-D4CA-4D3C-9945-5B20EAC2F22A}">
+							<Media>
+								<File Id="269971275"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7E761839-2AD4-482D-9056-6CDDE325E2F6}">
+							<Media>
+								<File Id="1015873701"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A2C1985A-C66C-4AC4-965D-B84BF4160A84}">
+							<Media>
+								<File Id="1046751901"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="4290453371" Name="loop_01" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_01"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="3870832171" Name="Play02_CampFire" ObjectPath="\Events\Amb\Play02_CampFire">
+					<ReferencedStreamedFiles>
+						<File Id="497904445" Language="SFX">
+							<ShortName>FirePlace.wav</ShortName>
+							<Path>SFX\FirePlace_3D1D1BA5.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2981340119" Name="Play03_Thunder" ObjectPath="\Events\Amb\Play03_Thunder">
+					<ReferencedStreamedFiles>
+						<File Id="499572523" Language="SFX">
+							<ShortName>Thunder.wav</ShortName>
+							<Path>SFX\Thunder_4BD17BDE.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="499572523" Language="SFX">
+							<ShortName>Thunder.wav</ShortName>
+							<Path>SFX\Thunder_4BD17BDE.wem</Path>
+							<PrefetchSize>5486</PrefetchSize>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="261113199" Name="Play04_DeadWood" ObjectPath="\Events\Amb\Play04_DeadWood">
+					<ReferencedStreamedFiles>
+						<File Id="28064941" Language="SFX">
+							<ShortName>DeadWoodLoop.wav</ShortName>
+							<Path>SFX\DeadWoodLoop_C1F52A07.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="126668870" Language="SFX">
+							<ShortName>DeadWood_Crow-002.wav</ShortName>
+							<Path>SFX\DeadWood_Crow-002_C1F52A07.wem</Path>
+						</File>
+						<File Id="374025400" Language="SFX">
+							<ShortName>DeadWood_Crow-003.wav</ShortName>
+							<Path>SFX\DeadWood_Crow-003_C1F52A07.wem</Path>
+						</File>
+						<File Id="534446168" Language="SFX">
+							<ShortName>DeadWood_Crow-004.wav</ShortName>
+							<Path>SFX\DeadWood_Crow-004_C1F52A07.wem</Path>
+						</File>
+						<File Id="604060058" Language="SFX">
+							<ShortName>DeadWood_Crow-005.wav</ShortName>
+							<Path>SFX\DeadWood_Crow-005_C1F52A07.wem</Path>
+						</File>
+						<File Id="880561992" Language="SFX">
+							<ShortName>DeadWood_Crow-001.wav</ShortName>
+							<Path>SFX\DeadWood_Crow-001_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="4290453368" Name="loop_02" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_02"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="2076417930" Name="Play05_CharacterChange" ObjectPath="\Events\Amb\Play05_CharacterChange">
+					<IncludedMemoryFiles>
+						<File Id="242505427" Language="SFX">
+							<ShortName>CharacterChange.wav</ShortName>
+							<Path>SFX\CharacterChange_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2387831653" Name="Play06_CharacterChange" ObjectPath="\Events\Amb\Play06_CharacterChange">
+					<IncludedMemoryFiles>
+						<File Id="242505427" Language="SFX">
+							<ShortName>CharacterChange.wav</ShortName>
+							<Path>SFX\CharacterChange_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="275887120" Name="Play07_BigSwitch_02" ObjectPath="\Events\Amb\Play07_BigSwitch_02">
+					<IncludedMemoryFiles>
+						<File Id="711788411" Language="SFX">
+							<ShortName>BigSwitch_02.wav</ShortName>
+							<Path>SFX\BigSwitch_02_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2222013521" Name="oneshot_03" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\oneshot_03"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="2906734629" Name="Play08_Amb_Saloon" ObjectPath="\Events\Amb\Play08_Amb_Saloon">
+					<ReferencedStreamedFiles>
+						<File Id="757574604" Language="SFX">
+							<ShortName>SaloonCrowdMedium.wav</ShortName>
+							<Path>SFX\SaloonCrowdMedium_3D1D1BA5.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="118248338" Language="SFX">
+							<ShortName>BarCrowd_Small_06.wav</ShortName>
+							<Path>SFX\BarCrowd_Small_06_C1F52A07.wem</Path>
+						</File>
+						<File Id="164684078" Language="SFX">
+							<ShortName>Bar_RND_Creak_14.wav</ShortName>
+							<Path>SFX\Bar_RND_Creak_14_C1F52A07.wem</Path>
+						</File>
+						<File Id="179694935" Language="SFX">
+							<ShortName>Bar_RND_Rumble_04.wav</ShortName>
+							<Path>SFX\Bar_RND_Rumble_04_C1F52A07.wem</Path>
+						</File>
+						<File Id="188281029" Language="SFX">
+							<ShortName>Bar_RND_Rumble_08.wav</ShortName>
+							<Path>SFX\Bar_RND_Rumble_08_C1F52A07.wem</Path>
+						</File>
+						<File Id="265323038" Language="SFX">
+							<ShortName>Bar_RND_Rumble_05.wav</ShortName>
+							<Path>SFX\Bar_RND_Rumble_05_C1F52A07.wem</Path>
+						</File>
+						<File Id="269659017" Language="SFX">
+							<ShortName>Bar_RND_Creak_16.wav</ShortName>
+							<Path>SFX\Bar_RND_Creak_16_C1F52A07.wem</Path>
+						</File>
+						<File Id="315667988" Language="SFX">
+							<ShortName>Bar_RND_Creak_13.wav</ShortName>
+							<Path>SFX\Bar_RND_Creak_13_C1F52A07.wem</Path>
+						</File>
+						<File Id="319560757" Language="SFX">
+							<ShortName>BarCrowd_Small_05.wav</ShortName>
+							<Path>SFX\BarCrowd_Small_05_C1F52A07.wem</Path>
+						</File>
+						<File Id="340432769" Language="SFX">
+							<ShortName>Bar_RND_Creak_12.wav</ShortName>
+							<Path>SFX\Bar_RND_Creak_12_C1F52A07.wem</Path>
+						</File>
+						<File Id="351221942" Language="SFX">
+							<ShortName>BarCrowd_Small_03.wav</ShortName>
+							<Path>SFX\BarCrowd_Small_03_C1F52A07.wem</Path>
+						</File>
+						<File Id="634983665" Language="SFX">
+							<ShortName>BarCrowd_Small_04.wav</ShortName>
+							<Path>SFX\BarCrowd_Small_04_C1F52A07.wem</Path>
+						</File>
+						<File Id="718980043" Language="SFX">
+							<ShortName>Bar_RND_Rumble_10.wav</ShortName>
+							<Path>SFX\Bar_RND_Rumble_10_C1F52A07.wem</Path>
+						</File>
+						<File Id="723150243" Language="SFX">
+							<ShortName>Bar_RND_Creak_17.wav</ShortName>
+							<Path>SFX\Bar_RND_Creak_17_C1F52A07.wem</Path>
+						</File>
+						<File Id="738925649" Language="SFX">
+							<ShortName>Bar_RND_Creak_15.wav</ShortName>
+							<Path>SFX\Bar_RND_Creak_15_C1F52A07.wem</Path>
+						</File>
+						<File Id="792389771" Language="SFX">
+							<ShortName>Bar_RND_Rumble_09.wav</ShortName>
+							<Path>SFX\Bar_RND_Rumble_09_C1F52A07.wem</Path>
+						</File>
+						<File Id="885502688" Language="SFX">
+							<ShortName>BarCrowd_Small_02.wav</ShortName>
+							<Path>SFX\BarCrowd_Small_02_C1F52A07.wem</Path>
+						</File>
+						<File Id="906585474" Language="SFX">
+							<ShortName>Bar_RND_Creak_11.wav</ShortName>
+							<Path>SFX\Bar_RND_Creak_11_C1F52A07.wem</Path>
+						</File>
+						<File Id="951157510" Language="SFX">
+							<ShortName>BarCrowd_Small_01.wav</ShortName>
+							<Path>SFX\BarCrowd_Small_01_C1F52A07.wem</Path>
+						</File>
+						<File Id="988353875" Language="SFX">
+							<ShortName>Bar_RND_Rumble_06.wav</ShortName>
+							<Path>SFX\Bar_RND_Rumble_06_C1F52A07.wem</Path>
+						</File>
+						<File Id="1005162567" Language="SFX">
+							<ShortName>Bar_RND_Rumble_07.wav</ShortName>
+							<Path>SFX\Bar_RND_Rumble_07_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="476313348" Name="Play09_SaloonLaughters" ObjectPath="\Events\Amb\Play09_SaloonLaughters">
+					<IncludedMemoryFiles>
+						<File Id="409667137" Language="SFX">
+							<ShortName>BigSwitch_01.wav</ShortName>
+							<Path>SFX\BigSwitch_01_C1F52A07.wem</Path>
+						</File>
+						<File Id="717222871" Language="SFX">
+							<ShortName>Saloon_Laughters.wav</ShortName>
+							<Path>SFX\Saloon_Laughters_C1F52A07.wem</Path>
+						</File>
+						<File Id="734260052" Language="SFX">
+							<ShortName>BigSwitch_04.wav</ShortName>
+							<Path>SFX\BigSwitch_04_C1F52A07.wem</Path>
+						</File>
+						<File Id="762772136" Language="SFX">
+							<ShortName>BigSwitch_03.wav</ShortName>
+							<Path>SFX\BigSwitch_03_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="4290453374" Name="loop_04" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_04"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="1737310914" Name="Play10_Bar" ObjectPath="\Events\Amb\Play10_Bar"/>
+				<Event Id="3819723224" Name="Play11_Scene" ObjectPath="\Events\Amb\Play11_Scene">
+					<IncludedMemoryFiles>
+						<File Id="409667137" Language="SFX">
+							<ShortName>BigSwitch_01.wav</ShortName>
+							<Path>SFX\BigSwitch_01_C1F52A07.wem</Path>
+						</File>
+						<File Id="711788411" Language="SFX">
+							<ShortName>BigSwitch_02.wav</ShortName>
+							<Path>SFX\BigSwitch_02_C1F52A07.wem</Path>
+						</File>
+						<File Id="734260052" Language="SFX">
+							<ShortName>BigSwitch_04.wav</ShortName>
+							<Path>SFX\BigSwitch_04_C1F52A07.wem</Path>
+						</File>
+						<File Id="762772136" Language="SFX">
+							<ShortName>BigSwitch_03.wav</ShortName>
+							<Path>SFX\BigSwitch_03_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="4290453375" Name="loop_05" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_05"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="2482240631" Name="Play13_Applause_01" ObjectPath="\Events\Amb\Play13_Applause_01">
+					<IncludedMemoryFiles>
+						<File Id="652807454" Language="SFX">
+							<ShortName>Applause_07.wav</ShortName>
+							<Path>SFX\Applause_07_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4229896879" Name="Play14_Applause_02" ObjectPath="\Events\Amb\Play14_Applause_02">
+					<IncludedMemoryFiles>
+						<File Id="88445299" Language="SFX">
+							<ShortName>Applause_08.wav</ShortName>
+							<Path>SFX\Applause_08_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2498846335" Name="Play15_Applause_03" ObjectPath="\Events\Amb\Play15_Applause_03">
+					<IncludedMemoryFiles>
+						<File Id="989344923" Language="SFX">
+							<ShortName>ApplauseLong.wav</ShortName>
+							<Path>SFX\ApplauseLong_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2222013525" Name="oneshot_07" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\oneshot_07"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="4013042024" Name="Play16_CharacterChange_far" ObjectPath="\Events\Amb\Play16_CharacterChange_far">
+					<IncludedMemoryFiles>
+						<File Id="835105814" Language="SFX">
+							<ShortName>CharacterChange_far.wav</ShortName>
+							<Path>SFX\CharacterChange_far_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="322016769" Name="Play17_CharacterChange_far" ObjectPath="\Events\Amb\Play17_CharacterChange_far">
+					<IncludedMemoryFiles>
+						<File Id="835105814" Language="SFX">
+							<ShortName>CharacterChange_far.wav</ShortName>
+							<Path>SFX\CharacterChange_far_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3187641986" Name="Play18_CampFire_Back" ObjectPath="\Events\Amb\Play18_CampFire_Back">
+					<ReferencedStreamedFiles>
+						<File Id="64469936" Language="SFX">
+							<ShortName>WindCalm_bed_01.wav</ShortName>
+							<Path>SFX\WindCalm_bed_01_C1F52A07.wem</Path>
+						</File>
+						<File Id="191198204" Language="SFX">
+							<ShortName>WindCalm_bed_02.wav</ShortName>
+							<Path>SFX\WindCalm_bed_02_C1F52A07.wem</Path>
+						</File>
+						<File Id="269433180" Language="SFX">
+							<ShortName>RND_Dist_Thunder_05.wav</ShortName>
+							<Path>SFX\RND_Dist_Thunder_05_C1F52A07.wem</Path>
+						</File>
+						<File Id="331587871" Language="SFX">
+							<ShortName>Rain_Clacs.wav</ShortName>
+							<Path>SFX\Rain_Clacs_C1F52A07.wem</Path>
+						</File>
+						<File Id="385298018" Language="SFX">
+							<ShortName>WindCalm_bed_03.wav</ShortName>
+							<Path>SFX\WindCalm_bed_03_C1F52A07.wem</Path>
+						</File>
+						<File Id="481946433" Language="SFX">
+							<ShortName>RND_Dist_Thunder_07.wav</ShortName>
+							<Path>SFX\RND_Dist_Thunder_07_C1F52A07.wem</Path>
+						</File>
+						<File Id="497904445" Language="SFX">
+							<ShortName>FirePlace.wav</ShortName>
+							<Path>SFX\FirePlace_3D1D1BA5.wem</Path>
+						</File>
+						<File Id="616108785" Language="SFX">
+							<ShortName>RND_Dist_Thunder_04.wav</ShortName>
+							<Path>SFX\RND_Dist_Thunder_04_C1F52A07.wem</Path>
+						</File>
+						<File Id="724256694" Language="SFX">
+							<ShortName>RND_Dist_Thunder_06.wav</ShortName>
+							<Path>SFX\RND_Dist_Thunder_06_C1F52A07.wem</Path>
+						</File>
+						<File Id="778747864" Language="SFX">
+							<ShortName>Rain_Clics.wav</ShortName>
+							<Path>SFX\Rain_Clics_C1F52A07.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="101047422" Language="SFX">
+							<ShortName>WindCalm_RND_10.wav</ShortName>
+							<Path>SFX\WindCalm_RND_10_C1F52A07.wem</Path>
+						</File>
+						<File Id="244014161" Language="SFX">
+							<ShortName>WindCalm_RND_11.wav</ShortName>
+							<Path>SFX\WindCalm_RND_11_C1F52A07.wem</Path>
+						</File>
+						<File Id="321907225" Language="SFX">
+							<ShortName>WindCalm_RND_01.wav</ShortName>
+							<Path>SFX\WindCalm_RND_01_C1F52A07.wem</Path>
+						</File>
+						<File Id="409240763" Language="SFX">
+							<ShortName>WindCalm_RND_05.wav</ShortName>
+							<Path>SFX\WindCalm_RND_05_C1F52A07.wem</Path>
+						</File>
+						<File Id="428881949" Language="SFX">
+							<ShortName>WindCalm_RND_08.wav</ShortName>
+							<Path>SFX\WindCalm_RND_08_C1F52A07.wem</Path>
+						</File>
+						<File Id="493529709" Language="SFX">
+							<ShortName>WindCalm_RND_09.wav</ShortName>
+							<Path>SFX\WindCalm_RND_09_C1F52A07.wem</Path>
+						</File>
+						<File Id="523615679" Language="SFX">
+							<ShortName>WindCalm_RND_02.wav</ShortName>
+							<Path>SFX\WindCalm_RND_02_C1F52A07.wem</Path>
+						</File>
+						<File Id="544806464" Language="SFX">
+							<ShortName>FirePlaceOff.wav</ShortName>
+							<Path>SFX\FirePlaceOff_C1F52A07.wem</Path>
+						</File>
+						<File Id="599291756" Language="SFX">
+							<ShortName>WindCalm_RND_06.wav</ShortName>
+							<Path>SFX\WindCalm_RND_06_C1F52A07.wem</Path>
+						</File>
+						<File Id="671515045" Language="SFX">
+							<ShortName>WindCalm_RND_04.wav</ShortName>
+							<Path>SFX\WindCalm_RND_04_C1F52A07.wem</Path>
+						</File>
+						<File Id="710386532" Language="SFX">
+							<ShortName>WindCalm_RND_07.wav</ShortName>
+							<Path>SFX\WindCalm_RND_07_C1F52A07.wem</Path>
+						</File>
+						<File Id="761841468" Language="SFX">
+							<ShortName>WindCalm_RND_03.wav</ShortName>
+							<Path>SFX\WindCalm_RND_03_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="220234965" Name="Play19_Campfire_Off" ObjectPath="\Events\Amb\Play19_Campfire_Off">
+					<IncludedMemoryFiles>
+						<File Id="544806464" Language="SFX">
+							<ShortName>FirePlaceOff.wav</ShortName>
+							<Path>SFX\FirePlaceOff_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2154312024" Name="SaloonCrowd" ObjectPath="\Game Parameters\Default Work Unit\SaloonCrowd"/>
+				<GameParameter Id="2406858633" Name="Meteo" ObjectPath="\Game Parameters\Default Work Unit\Meteo"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1445190757" Name="Music_Switch_Container" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container">
+					<Switches>
+						<Switch Id="4290453371" Name="loop_01" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_01"/>
+						<Switch Id="4290453368" Name="loop_02" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_02"/>
+						<Switch Id="2222013521" Name="oneshot_03" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\oneshot_03"/>
+						<Switch Id="4290453374" Name="loop_04" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_04"/>
+						<Switch Id="4290453375" Name="loop_05" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_05"/>
+						<Switch Id="4290453372" Name="loop_06" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_06"/>
+						<Switch Id="2222013525" Name="oneshot_07" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\oneshot_07"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2222013521" Name="oneshot_03" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\oneshot_03">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="2222013525" Name="oneshot_07" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\oneshot_07">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="4290453368" Name="loop_02" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_02">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="4290453371" Name="loop_01" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_01">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="4290453374" Name="loop_04" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_04">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="4290453375" Name="loop_05" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_05">
+					<Switches/>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

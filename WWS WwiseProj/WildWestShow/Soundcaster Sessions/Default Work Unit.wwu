@@ -26,15 +26,19 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play12_Audience01" ID="{5E9E41AB-D27A-42E8-A0DD-B043D78ABDE2}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
+							<ObjectRef Name="Play12_AudienceAppears" ID="{7303C117-A4BB-4E6D-AA28-323CAAD5536A}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play13_Applause_01" ID="{5E9E41AB-D27A-42E8-A0DD-B043D78ABDE2}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play04_DeadWood" ID="{3313328F-0A34-4315-A04E-8938D302C895}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play13_Audience02" ID="{A8F2CE14-ECBF-4740-BAA2-0475B448CB2C}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
+							<ObjectRef Name="Play14_Applause_02" ID="{A8F2CE14-ECBF-4740-BAA2-0475B448CB2C}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
@@ -42,7 +46,7 @@
 							<Position X="4" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play14_Audience03" ID="{560CF8E4-B594-446E-BF77-E07AC03D5A27}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
+							<ObjectRef Name="Play15_Applause_03" ID="{560CF8E4-B594-446E-BF77-E07AC03D5A27}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
 							<Position X="4" Y="1"/>
 						</Module>
 						<Module>
@@ -50,7 +54,7 @@
 							<Position X="5" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play15_CharacterChange_far" ID="{F8BCD51E-3C00-45D1-8174-34DA57728B06}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
+							<ObjectRef Name="Play16_CharacterChange_far" ID="{F8BCD51E-3C00-45D1-8174-34DA57728B06}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
 							<Position X="5" Y="1"/>
 						</Module>
 						<Module>
@@ -58,7 +62,7 @@
 							<Position X="6" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play16_CharacterChange_far" ID="{B0485D65-B9BB-42E1-8E8D-A6835C85ECA7}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
+							<ObjectRef Name="Play17_CharacterChange_far" ID="{B0485D65-B9BB-42E1-8E8D-A6835C85ECA7}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
 							<Position X="6" Y="1"/>
 						</Module>
 						<Module>
@@ -66,7 +70,7 @@
 							<Position X="7" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play17_CampFire_Back" ID="{6A7D8162-3222-43F7-A194-7A3A02065E07}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
+							<ObjectRef Name="Play18_CampFire_Back" ID="{6A7D8162-3222-43F7-A194-7A3A02065E07}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
 							<Position X="7" Y="1"/>
 						</Module>
 						<Module>
@@ -74,7 +78,7 @@
 							<Position X="8" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play18_Campfire_Off" ID="{B801BC5E-0882-4AEE-BBF6-74601B0D18D8}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
+							<ObjectRef Name="Play19_Campfire_Off" ID="{B801BC5E-0882-4AEE-BBF6-74601B0D18D8}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
 							<Position X="8" Y="1"/>
 						</Module>
 					</ModuleList>

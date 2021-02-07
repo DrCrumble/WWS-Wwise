@@ -55,7 +55,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play15_CharacterChange_far" ID="{F8BCD51E-3C00-45D1-8174-34DA57728B06}">
+				<Event Name="Play16_CharacterChange_far" ID="{F8BCD51E-3C00-45D1-8174-34DA57728B06}">
 					<ChildrenList>
 						<Action Name="" ID="{D93DADF8-C9CD-46A4-96C6-F45981D64EB9}" ShortID="629922720">
 							<PropertyList>
@@ -81,7 +81,7 @@
 						<Action Name="" ID="{EC3377D0-AC25-4491-ABC5-C53015C707EE}" ShortID="534933672">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
 							</PropertyList>
 							<ReferenceList>
@@ -104,7 +104,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play12_Audience01" ID="{5E9E41AB-D27A-42E8-A0DD-B043D78ABDE2}">
+				<Event Name="Play13_Applause_01" ID="{5E9E41AB-D27A-42E8-A0DD-B043D78ABDE2}">
 					<ChildrenList>
 						<Action Name="" ID="{4387CFE0-1420-4E70-A4CA-AE72439AED7A}" ShortID="85609347">
 							<ReferenceList>
@@ -117,7 +117,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="11"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="Volume" Type="Real64" Value="-6"/>
+								<Property Name="Volume" Type="Real64" Value="-7"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -140,7 +140,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play13_Audience02" ID="{A8F2CE14-ECBF-4740-BAA2-0475B448CB2C}">
+				<Event Name="Play14_Applause_02" ID="{A8F2CE14-ECBF-4740-BAA2-0475B448CB2C}">
 					<ChildrenList>
 						<Action Name="" ID="{45331C67-319A-45E9-BE24-25AB1D19CC65}" ShortID="67514929">
 							<ReferenceList>
@@ -166,7 +166,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="11"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="Volume" Type="Real64" Value="-6"/>
+								<Property Name="Volume" Type="Real64" Value="-7"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -174,19 +174,9 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{B7438643-CFAF-4153-8B74-7AD2A37DF34A}" ShortID="898628256">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="loop_06" ID="{C904D9B6-D4CA-4D3C-9945-5B20EAC2F22A}" WorkUnitID="{68B02F93-D5C6-4C22-8AF0-A669FAD48C29}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play18_Campfire_Off" ID="{B801BC5E-0882-4AEE-BBF6-74601B0D18D8}">
+				<Event Name="Play19_Campfire_Off" ID="{B801BC5E-0882-4AEE-BBF6-74601B0D18D8}">
 					<ChildrenList>
 						<Action Name="" ID="{46CC7042-F20E-4806-B709-CA6F2AA6E6C3}" ShortID="420514272">
 							<ReferenceList>
@@ -210,14 +200,15 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="3"/>
 								<Property Name="Delay" Type="Real64" Value="1.5"/>
-								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play17_CampFire_Back" ID="{6A7D8162-3222-43F7-A194-7A3A02065E07}">
+				<Event Name="Play18_CampFire_Back" ID="{6A7D8162-3222-43F7-A194-7A3A02065E07}">
 					<ChildrenList>
 						<Action Name="" ID="{DC77D796-5421-4E47-9F1F-A4E12D4146E4}" ShortID="349806642">
 							<PropertyList>
@@ -276,6 +267,18 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{6FA0629B-D263-4F08-8C76-ED448CD03B95}" ShortID="451863158">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Applause_03" ID="{DF23B6A6-D9C0-45B5-91D4-ECD27536963F}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{588E4462-B902-4977-A7F6-88643229596A}" ShortID="58150603">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -285,7 +288,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play14_Audience03" ID="{560CF8E4-B594-446E-BF77-E07AC03D5A27}">
+				<Event Name="Play15_Applause_03" ID="{560CF8E4-B594-446E-BF77-E07AC03D5A27}">
 					<ChildrenList>
 						<Action Name="" ID="{769DF783-CA9F-45CD-99D4-3DFA4FC56E66}" ShortID="528310108">
 							<PropertyList>
@@ -301,6 +304,9 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{AA430CEB-9945-4E00-8D01-C2D15208CD7A}" ShortID="781359078">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Applause_03" ID="{DF23B6A6-D9C0-45B5-91D4-ECD27536963F}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
@@ -368,7 +374,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play16_CharacterChange_far" ID="{B0485D65-B9BB-42E1-8E8D-A6835C85ECA7}">
+				<Event Name="Play17_CharacterChange_far" ID="{B0485D65-B9BB-42E1-8E8D-A6835C85ECA7}">
 					<ChildrenList>
 						<Action Name="" ID="{687FBA83-4BE8-4400-BB78-1B92A5704E21}" ShortID="367700743">
 							<PropertyList>
@@ -745,6 +751,32 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="BigSwitch_02" ID="{40AFF60D-22CD-441A-994B-64899A2DBBE1}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B8639687-643D-4591-9998-C6E84108C416}" ShortID="130852766">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="11"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Volume" Type="Real64" Value="-3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC" ID="{FF12D8DA-13D9-41AA-8FD1-0796BB89748A}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play12_AudienceAppears" ID="{7303C117-A4BB-4E6D-AA28-323CAAD5536A}">
+					<ChildrenList>
+						<Action Name="" ID="{B7438643-CFAF-4153-8B74-7AD2A37DF34A}" ShortID="898628256">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="loop_06" ID="{C904D9B6-D4CA-4D3C-9945-5B20EAC2F22A}" WorkUnitID="{68B02F93-D5C6-4C22-8AF0-A669FAD48C29}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

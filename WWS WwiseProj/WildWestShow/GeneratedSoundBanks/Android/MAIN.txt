@@ -1,22 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
+	220234965	Play19_Campfire_Off			\Amb\Play19_Campfire_Off	
 	261113199	Play04_DeadWood			\Amb\Play04_DeadWood	
 	275887120	Play07_BigSwitch_02			\Amb\Play07_BigSwitch_02	
+	322016769	Play17_CharacterChange_far			\Amb\Play17_CharacterChange_far	
 	476313348	Play09_SaloonLaughters			\Amb\Play09_SaloonLaughters	
-	1035301078	Play12_Audience01			\Amb\Play12_Audience01	
-	1134602042	Play18_Campfire_Off			\Amb\Play18_Campfire_Off	
-	1211667078	Play13_Audience02			\Amb\Play13_Audience02	
 	1737310914	Play10_Bar			\Amb\Play10_Bar	
 	2076417930	Play05_CharacterChange			\Amb\Play05_CharacterChange	
 	2387831653	Play06_CharacterChange			\Amb\Play06_CharacterChange	
+	2482240631	Play13_Applause_01			\Amb\Play13_Applause_01	
+	2498846335	Play15_Applause_03			\Amb\Play15_Applause_03	
 	2906734629	Play08_Amb_Saloon			\Amb\Play08_Amb_Saloon	
 	2981340119	Play03_Thunder			\Amb\Play03_Thunder	
+	3187641986	Play18_CampFire_Back			\Amb\Play18_CampFire_Back	
 	3218289023	Play01_Start			\Amb\Play01_Start	
-	3395762738	Play14_Audience03			\Amb\Play14_Audience03	
 	3819723224	Play11_Scene			\Amb\Play11_Scene	
 	3870832171	Play02_CampFire			\Amb\Play02_CampFire	
-	3909470905	Play17_CampFire_Back			\Amb\Play17_CampFire_Back	
-	3927665067	Play15_CharacterChange_far			\Amb\Play15_CharacterChange_far	
 	4013042024	Play16_CharacterChange_far			\Amb\Play16_CharacterChange_far	
+	4229896879	Play14_Applause_02			\Amb\Play14_Applause_02	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1445190757	Music_Switch_Container			\Default Work Unit\Music_Switch_Container	
@@ -72,7 +72,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	646136583	music_wws_loop_intro_05	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_loop_intro_05_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_05\music_wws_loop_intro_05\music_wws_loop_intro_05		286587
 	652445581	music_wws_loop_01	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_loop_01_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_01\music_wws_loop_01\music_wws_loop_01		2340
 	652807454	Applause_01	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Applause_07_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Applause_01		458089
-	668190658	Applause_03	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Applause_09_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Applause_03		750312
 	671515045	WindCalm_RND_04	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_04_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_04		42391
 	710386532	WindCalm_RND_07	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\WindCalm_RND_07_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meteo\WindCalm_RND\WindCalm_RND\WindCalm_RND_07		86124
 	711788411	BigSwitch_02	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\BigSwitch_02_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\BigSwitch_02		63135
@@ -90,6 +89,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	906585474	Bar_RND_Creak_11	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Creak_11_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Creak\RND_Creak\Bar_RND_Creak_11		6464
 	951157510	BarCrowd_Small_01	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\BarCrowd_Small_01_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\Crowd\BarCrowd_Small_01		257806
 	988353875	Bar_RND_Rumble_06	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Rumble_06_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Rumble\RND_Rumble\Bar_RND_Rumble_06		14853
+	989344923	Applause_03	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\ApplauseLong_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Applause_03		1757659
 	1005162567	Bar_RND_Rumble_07	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\Bar_RND_Rumble_07_C1F52A07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Saloon\RND_Rumble\RND_Rumble\Bar_RND_Rumble_07		19211
 	1015873701	music_wws_oneshot_03	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_oneshot_03_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_03\music_wws_oneshot_03\music_wws_oneshot_03		155342
 	1046751901	music_wws_oneshot_07_end	E:\TAMANOIR\WWS WwiseProj Git\WWS-Wwise\WWS WwiseProj\WildWestShow\.cache\Android\SFX\music_wws_oneshot_07_end_3D1D1BA5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Segments\Music_Switch_Container\music_playlist_07\music_wws_oneshot_07_end\music_wws_oneshot_07_end		214539

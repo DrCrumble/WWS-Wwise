@@ -80,12 +80,12 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2643705303">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2479582824">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1996079253">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1778898277">
 			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
 			<ShortName>MAIN</ShortName>
 			<Path>MAIN.bnk</Path>
@@ -260,6 +260,9 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="4290453371" Name="loop_01" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_01"/>
+					</ActionSetSwitch>
 				</Event>
 				<Event Id="3870832171" Name="Play02_CampFire" ObjectPath="\Events\Amb\Play02_CampFire">
 					<ReferencedStreamedFiles>
@@ -313,6 +316,9 @@
 							<Path>SFX\DeadWood_Crow-001_C1F52A07.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="4290453368" Name="loop_02" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_02"/>
+					</ActionSetSwitch>
 				</Event>
 				<Event Id="2076417930" Name="Play05_CharacterChange" ObjectPath="\Events\Amb\Play05_CharacterChange">
 					<IncludedMemoryFiles>
@@ -337,6 +343,9 @@
 							<Path>SFX\BigSwitch_02_C1F52A07.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2222013521" Name="oneshot_03" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\oneshot_03"/>
+					</ActionSetSwitch>
 				</Event>
 				<Event Id="2906734629" Name="Play08_Amb_Saloon" ObjectPath="\Events\Amb\Play08_Amb_Saloon">
 					<ReferencedStreamedFiles>
@@ -386,10 +395,6 @@
 							<ShortName>BarCrowd_Small_03.wav</ShortName>
 							<Path>SFX\BarCrowd_Small_03_C1F52A07.wem</Path>
 						</File>
-						<File Id="409667137" Language="SFX">
-							<ShortName>BigSwitch_01.wav</ShortName>
-							<Path>SFX\BigSwitch_01_C1F52A07.wem</Path>
-						</File>
 						<File Id="634983665" Language="SFX">
 							<ShortName>BarCrowd_Small_04.wav</ShortName>
 							<Path>SFX\BarCrowd_Small_04_C1F52A07.wem</Path>
@@ -402,17 +407,9 @@
 							<ShortName>Bar_RND_Creak_17.wav</ShortName>
 							<Path>SFX\Bar_RND_Creak_17_C1F52A07.wem</Path>
 						</File>
-						<File Id="734260052" Language="SFX">
-							<ShortName>BigSwitch_04.wav</ShortName>
-							<Path>SFX\BigSwitch_04_C1F52A07.wem</Path>
-						</File>
 						<File Id="738925649" Language="SFX">
 							<ShortName>Bar_RND_Creak_15.wav</ShortName>
 							<Path>SFX\Bar_RND_Creak_15_C1F52A07.wem</Path>
-						</File>
-						<File Id="762772136" Language="SFX">
-							<ShortName>BigSwitch_03.wav</ShortName>
-							<Path>SFX\BigSwitch_03_C1F52A07.wem</Path>
 						</File>
 						<File Id="792389771" Language="SFX">
 							<ShortName>Bar_RND_Rumble_09.wav</ShortName>
@@ -459,6 +456,9 @@
 							<Path>SFX\BigSwitch_03_C1F52A07.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="4290453374" Name="loop_04" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_04"/>
+					</ActionSetSwitch>
 				</Event>
 				<Event Id="1737310914" Name="Play10_Bar" ObjectPath="\Events\Amb\Play10_Bar"/>
 				<Event Id="3819723224" Name="Play11_Scene" ObjectPath="\Events\Amb\Play11_Scene">
@@ -480,8 +480,11 @@
 							<Path>SFX\BigSwitch_03_C1F52A07.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="4290453375" Name="loop_05" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_05"/>
+					</ActionSetSwitch>
 				</Event>
-				<Event Id="1035301078" Name="Play12_Audience01" ObjectPath="\Events\Amb\Play12_Audience01">
+				<Event Id="2482240631" Name="Play13_Applause_01" ObjectPath="\Events\Amb\Play13_Applause_01">
 					<IncludedMemoryFiles>
 						<File Id="652807454" Language="SFX">
 							<ShortName>Applause_07.wav</ShortName>
@@ -489,7 +492,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1211667078" Name="Play13_Audience02" ObjectPath="\Events\Amb\Play13_Audience02">
+				<Event Id="4229896879" Name="Play14_Applause_02" ObjectPath="\Events\Amb\Play14_Applause_02">
 					<IncludedMemoryFiles>
 						<File Id="88445299" Language="SFX">
 							<ShortName>Applause_08.wav</ShortName>
@@ -497,21 +500,16 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3395762738" Name="Play14_Audience03" ObjectPath="\Events\Amb\Play14_Audience03">
+				<Event Id="2498846335" Name="Play15_Applause_03" ObjectPath="\Events\Amb\Play15_Applause_03">
 					<IncludedMemoryFiles>
-						<File Id="668190658" Language="SFX">
-							<ShortName>Applause_09.wav</ShortName>
-							<Path>SFX\Applause_09_C1F52A07.wem</Path>
+						<File Id="989344923" Language="SFX">
+							<ShortName>ApplauseLong.wav</ShortName>
+							<Path>SFX\ApplauseLong_C1F52A07.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3927665067" Name="Play15_CharacterChange_far" ObjectPath="\Events\Amb\Play15_CharacterChange_far">
-					<IncludedMemoryFiles>
-						<File Id="835105814" Language="SFX">
-							<ShortName>CharacterChange_far.wav</ShortName>
-							<Path>SFX\CharacterChange_far_C1F52A07.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2222013525" Name="oneshot_07" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\oneshot_07"/>
+					</ActionSetSwitch>
 				</Event>
 				<Event Id="4013042024" Name="Play16_CharacterChange_far" ObjectPath="\Events\Amb\Play16_CharacterChange_far">
 					<IncludedMemoryFiles>
@@ -521,7 +519,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3909470905" Name="Play17_CampFire_Back" ObjectPath="\Events\Amb\Play17_CampFire_Back">
+				<Event Id="322016769" Name="Play17_CharacterChange_far" ObjectPath="\Events\Amb\Play17_CharacterChange_far">
+					<IncludedMemoryFiles>
+						<File Id="835105814" Language="SFX">
+							<ShortName>CharacterChange_far.wav</ShortName>
+							<Path>SFX\CharacterChange_far_C1F52A07.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3187641986" Name="Play18_CampFire_Back" ObjectPath="\Events\Amb\Play18_CampFire_Back">
 					<ReferencedStreamedFiles>
 						<File Id="64469936" Language="SFX">
 							<ShortName>WindCalm_bed_01.wav</ShortName>
@@ -593,6 +599,10 @@
 							<ShortName>WindCalm_RND_02.wav</ShortName>
 							<Path>SFX\WindCalm_RND_02_C1F52A07.wem</Path>
 						</File>
+						<File Id="544806464" Language="SFX">
+							<ShortName>FirePlaceOff.wav</ShortName>
+							<Path>SFX\FirePlaceOff_C1F52A07.wem</Path>
+						</File>
 						<File Id="599291756" Language="SFX">
 							<ShortName>WindCalm_RND_06.wav</ShortName>
 							<Path>SFX\WindCalm_RND_06_C1F52A07.wem</Path>
@@ -611,7 +621,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1134602042" Name="Play18_Campfire_Off" ObjectPath="\Events\Amb\Play18_Campfire_Off">
+				<Event Id="220234965" Name="Play19_Campfire_Off" ObjectPath="\Events\Amb\Play19_Campfire_Off">
 					<IncludedMemoryFiles>
 						<File Id="544806464" Language="SFX">
 							<ShortName>FirePlaceOff.wav</ShortName>
@@ -635,6 +645,24 @@
 						<Switch Id="4290453372" Name="loop_06" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_06"/>
 						<Switch Id="2222013525" Name="oneshot_07" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\oneshot_07"/>
 					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2222013521" Name="oneshot_03" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\oneshot_03">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="2222013525" Name="oneshot_07" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\oneshot_07">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="4290453368" Name="loop_02" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_02">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="4290453371" Name="loop_01" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_01">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="4290453374" Name="loop_04" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_04">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="4290453375" Name="loop_05" ObjectPath="\Switches\Default Work Unit\Music_Switch_Container\loop_05">
+					<Switches/>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>

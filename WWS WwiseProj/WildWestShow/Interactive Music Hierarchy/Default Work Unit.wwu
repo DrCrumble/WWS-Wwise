@@ -665,6 +665,13 @@
 									</Playlist>
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="music_playlist_05" ID="{18F535BA-7849-44CF-A0DE-43C0B93C6933}" ShortID="560249481">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
@@ -832,7 +839,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1083,7 +1090,7 @@
 										<MusicTransition Name="Transition" ID="{948C52AD-AD53-4B96-BDEB-17F0C93CA8BC}">
 											<PropertyList>
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-												<Property Name="ExitSourceAt" Type="int16" Value="1"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 											</PropertyList>
 											<TransitionInfo>
 												<SourceFadeOut>
