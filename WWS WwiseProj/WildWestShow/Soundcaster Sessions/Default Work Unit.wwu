@@ -58,7 +58,7 @@
 							<Position X="5" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play07_BigSwitch_02" ID="{DFB638AF-9EAD-4AB7-B204-C52995DE3A40}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
+							<ObjectRef Name="Play07_DoraAppears" ID="{DFB638AF-9EAD-4AB7-B204-C52995DE3A40}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}"/>
 							<Position X="6" Y="0"/>
 						</Module>
 						<Module>
@@ -90,7 +90,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="oneshot_07" ID="{A2C1985A-C66C-4AC4-965D-B84BF4160A84}"/>
+						<CurrentSwitchRef Name="loop_04" ID="{8F4AD0A0-0C89-42BE-9D4B-BF3C1E9FB839}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

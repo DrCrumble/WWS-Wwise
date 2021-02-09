@@ -192,7 +192,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FirePlace" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+									<ObjectRef Name="FirePlaceStart" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -250,7 +250,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FirePlace" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+									<ObjectRef Name="FirePlaceEnd" ID="{8CF68594-BEF3-477F-AB3A-218C9423FF42}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -438,7 +438,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FirePlace" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+									<ObjectRef Name="FirePlaceStart" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -666,7 +666,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FirePlace" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+									<ObjectRef Name="FirePlaceStart" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

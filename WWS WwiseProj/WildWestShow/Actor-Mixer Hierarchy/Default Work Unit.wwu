@@ -2281,10 +2281,9 @@
 				</RandomSequenceContainer>
 				<Sound Name="CharacterChange" ID="{AFD0020F-1D59-4894-BED9-3F3140FAC2C3}" ShortID="371097454">
 					<PropertyList>
-						<Property Name="3DPosition" Type="int16" Value="1"/>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="93"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -2304,6 +2303,12 @@
 						</AudioFileSource>
 					</ChildrenList>
 					<PositioningInfo>
+						<Panner Name="" ID="{E70EFCEA-7512-441D-B67D-64D2F9C89664}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-6.21724893790088E-15"/>
+								<Property Name="PanY" Type="Real64" Value="-100"/>
+							</PropertyList>
+						</Panner>
 						<Position Name="" ID="{71D87014-DAD6-414E-8501-35C06DAD4936}">
 							<ChildrenList>
 								<Path2D Name="CharacterChange_Path" ID="{953BF0C9-7162-4F88-8046-1BF4AA72BC9D}">
@@ -2324,6 +2329,9 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="CharacterChange_far" ID="{45C9FF6D-5D2A-4457-9453-3700B0659F08}" ShortID="79269367">
+					<PropertyList>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -2341,6 +2349,14 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{BDDB34E8-590E-438D-8FB0-E0084A50DC1C}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-0.401606425702811"/>
+								<Property Name="PanY" Type="Real64" Value="85.531914893617"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="CharacterChange_far" ID="{C0696661-8393-469D-8B2E-08B45CF1BEF5}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -2401,6 +2417,7 @@
 								<Value>-80</Value>
 							</ValueList>
 						</Property>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-2</Value>
@@ -2424,6 +2441,14 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{BEBD56AD-D73D-48BF-A950-378759D38971}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-45.7831325301205"/>
+								<Property Name="PanY" Type="Real64" Value="-0.425531914893617"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="BigSwitch_02" ID="{D29CE642-F4FE-42EB-884E-8379272C36EE}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -2452,6 +2477,7 @@
 				</Sound>
 				<Sound Name="Applause_01" ID="{BCA41DA3-C9FD-49E4-8AD9-525BB4EB84E1}" ShortID="633058417">
 					<PropertyList>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-3</Value>
@@ -2475,12 +2501,21 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{AAB406F7-2FAE-4B84-AA74-5E5B2C7D8F87}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="0.803212851405622"/>
+								<Property Name="PanY" Type="Real64" Value="59.5744680851064"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Applause_07" ID="{0CCB1114-9CC4-4A02-91E7-FE628001338D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Applause_02" ID="{43B9A7EB-8A0B-4444-B4CF-1191E79054F2}" ShortID="97191060">
 					<PropertyList>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-3</Value>
@@ -2504,12 +2539,21 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{61E79773-F5A1-47C1-A363-D66C4E1AD287}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="0.401606425702811"/>
+								<Property Name="PanY" Type="Real64" Value="58.7234042553192"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Applause_08" ID="{C07C39CD-6417-498B-A65E-5A29D7B8AFF8}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Applause_03" ID="{DF23B6A6-D9C0-45B5-91D4-ECD27536963F}" ShortID="792206422">
 					<PropertyList>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-3</Value>
@@ -2533,20 +2577,27 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{CB19EA93-39FA-4E1A-9F97-9BAF85831475}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="1.11022302462516E-16"/>
+								<Property Name="PanY" Type="Real64" Value="48.0851063829787"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="ApplauseLong" ID="{AA008890-6124-462D-A88D-73CF6241D362}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="FirePlace" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" ShortID="55032621">
+				<Sound Name="FirePlaceStart" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" ShortID="55032621">
 					<PropertyList>
-						<Property Name="3DPosition" Type="int16" Value="1"/>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="IsStreamingEnabled" Type="bool">
 							<ValueList>
 								<Value>True</Value>
 							</ValueList>
 						</Property>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-3</Value>
@@ -2571,6 +2622,12 @@
 						</AudioFileSource>
 					</ChildrenList>
 					<PositioningInfo>
+						<Panner Name="" ID="{A629C0D9-1808-4CFB-832D-0E7A881BF0A1}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="72.6907630522088"/>
+								<Property Name="PanY" Type="Real64" Value="11.9148936170213"/>
+							</PropertyList>
+						</Panner>
 						<Position Name="" ID="{DB019C41-D571-4BF1-B123-BF488A6CA960}">
 							<PropertyList>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -2613,6 +2670,67 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="FirePlaceOff" ID="{F3B9052B-78A0-4C46-916E-DAC5F0390BC1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FirePlaceEnd" ID="{8CF68594-BEF3-477F-AB3A-218C9423FF42}" ShortID="986158825">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMB" ID="{2F0B336E-DFDA-4FC5-B7DF-26D5393FA916}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FirePlace" ID="{6FF71CA1-ED95-4D97-929F-595BAF66E0B7}">
+							<Language>SFX</Language>
+							<AudioFile>FirePlace.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="497904445"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{685B0A41-FC95-41D8-9597-6E06E12D42F3}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-3.61445783132531"/>
+								<Property Name="PanY" Type="Real64" Value="26.3829787234043"/>
+							</PropertyList>
+						</Panner>
+						<Position Name="" ID="{61ED0E06-DF99-46AD-AF66-348558BB439E}">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<Path2D Name="FirePlace_Path" ID="{8C62463D-6248-406F-83CD-DB89FAC197DF}">
+									<PointList>
+										<Point>
+											<XPos>-81.64557</XPos>
+											<YPos>84.71338</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="FirePlace" ID="{6FF71CA1-ED95-4D97-929F-595BAF66E0B7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
