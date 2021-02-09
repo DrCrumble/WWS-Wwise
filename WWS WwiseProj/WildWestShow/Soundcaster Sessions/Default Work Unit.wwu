@@ -85,12 +85,12 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Meteo" ID="{B3F8DB62-9ACB-40A9-B35C-21A01DA5B4FE}"/>
-							<Value>69.9644128113879</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="loop_04" ID="{8F4AD0A0-0C89-42BE-9D4B-BF3C1E9FB839}"/>
+						<CurrentSwitchRef Name="loop_01" ID="{2848FAF8-30FD-4FA9-AB4C-9EA8C5C5EF97}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
