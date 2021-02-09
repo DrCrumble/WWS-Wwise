@@ -8,7 +8,7 @@
 						<MusicSwitchContainer Name="Music_Switch_Container" ID="{DE379BAA-A450-4642-849B-FA67D6797CC6}" ShortID="305739325">
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 								</Reference>
 								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 									<ObjectRef Name="New_Wwise_Parametric_EQ" ID="{3E3FD312-7F6F-4BF5-B177-91B5811D42ED}" WorkUnitID="{E98DC965-B2E5-4E94-812F-834E3B867662}"/>

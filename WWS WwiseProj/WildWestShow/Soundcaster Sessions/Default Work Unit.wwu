@@ -87,6 +87,10 @@
 							<GameParameterRef Name="Meteo" ID="{B3F8DB62-9ACB-40A9-B35C-21A01DA5B4FE}"/>
 							<Value>0</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SaloonCrowd" ID="{0F427D0B-1592-4429-A415-DDDA64F82368}"/>
+							<Value>0</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
