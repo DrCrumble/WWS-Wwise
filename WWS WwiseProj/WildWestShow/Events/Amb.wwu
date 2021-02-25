@@ -23,7 +23,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="loop_01" ID="{2848FAF8-30FD-4FA9-AB4C-9EA8C5C5EF97}" WorkUnitID="{68B02F93-D5C6-4C22-8AF0-A669FAD48C29}"/>
+									<ObjectRef Name="loop_menu" ID="{7D9C2FAB-6FFD-49B9-BAF2-60A2ED649C3F}" WorkUnitID="{68B02F93-D5C6-4C22-8AF0-A669FAD48C29}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -684,6 +684,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FirePlaceStart" ID="{C90AF01C-5D54-43A0-9605-BFBCE446F52A}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{81E831E6-2AEB-4BED-8DEE-5E861482D06C}" ShortID="730776984">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="loop_01" ID="{2848FAF8-30FD-4FA9-AB4C-9EA8C5C5EF97}" WorkUnitID="{68B02F93-D5C6-4C22-8AF0-A669FAD48C29}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

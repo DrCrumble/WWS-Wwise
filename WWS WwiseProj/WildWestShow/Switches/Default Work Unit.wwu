@@ -12,6 +12,7 @@
 						<Switch Name="loop_05" ID="{9E48FD47-A71F-4188-9061-FC3608941267}"/>
 						<Switch Name="loop_06" ID="{C904D9B6-D4CA-4D3C-9945-5B20EAC2F22A}"/>
 						<Switch Name="oneshot_07" ID="{A2C1985A-C66C-4AC4-965D-B84BF4160A84}"/>
+						<Switch Name="loop_menu" ID="{7D9C2FAB-6FFD-49B9-BAF2-60A2ED649C3F}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
