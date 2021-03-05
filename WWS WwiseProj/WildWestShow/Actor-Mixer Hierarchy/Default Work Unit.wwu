@@ -2733,6 +2733,35 @@
 						<ActiveSource Name="FirePlace" ID="{6FF71CA1-ED95-4D97-929F-595BAF66E0B7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="ApplauseSalute" ID="{BBD00400-993B-4AFF-9DC7-D1D7D7834C31}" ShortID="526832041">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{846C8368-7651-4DD6-B1DA-32C7841FE14C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7F561769-22D5-4FAA-A32B-904B63443661}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ApplauseSalute" ID="{B698FB8F-E9A8-4700-8DAB-0E3AA94E41FA}">
+							<Language>SFX</Language>
+							<AudioFile>ApplauseSalute.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="249779057"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ApplauseSalute" ID="{B698FB8F-E9A8-4700-8DAB-0E3AA94E41FA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
