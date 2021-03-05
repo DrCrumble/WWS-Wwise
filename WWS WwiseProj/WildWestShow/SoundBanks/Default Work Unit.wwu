@@ -17,10 +17,21 @@
 						<ObjectRef Name="Play16_CharacterChange_far_OS" ID="{F8BCD51E-3C00-45D1-8174-34DA57728B06}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play03_Thunder_Amb" ID="{D6CA7AAE-D637-4660-BD6F-658AB523416F}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play14_Applause_02_OS" ID="{A8F2CE14-ECBF-4740-BAA2-0475B448CB2C}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play08_Saloon_Music" ID="{F0A35B8A-E26A-4822-B78B-C8ECECFD668C}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play15_Applause_03_Music" ID="{83972C3D-691A-484C-8272-133FF3D75029}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play10_Bar_Music" ID="{9E4A5966-8826-49C5-9F4B-8C7D7310629B}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play07_DoraAppears_Music" ID="{6F7EEBF7-2D2C-4A62-B0ED-0C9DFC9E77A7}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play08_Saloon_Amb" ID="{DAD983C0-1470-4A6C-AFCE-B2D8753DA75D}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play09_SaloonLaughters_Amb" ID="{5619B62C-E4A7-4AA7-81BC-7D19A9DFD960}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play07_DoraAppears_Amb" ID="{DFB638AF-9EAD-4AB7-B204-C52995DE3A40}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play03_Thunder_Music" ID="{EB0C0E82-B9E0-4AC8-B8AE-8E15C670DE2B}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play19_Campfire_Off_Amb" ID="{B801BC5E-0882-4AEE-BBF6-74601B0D18D8}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play04_DeadWood_Music" ID="{3FBCE964-753F-4BCE-B8D0-02179725D45A}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play17bis_Salute_OS" ID="{A1DAE140-1696-4C13-B972-8953D24F7429}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play02_CampFire_Amb" ID="{4F3541E4-CCAB-4C26-94C2-3F2A7D261871}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play00_Menu_Music" ID="{1BB0B789-6470-4C60-B340-18E70CE0F662}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play11_Scene_Music" ID="{9B552C41-3C78-4D2E-AA79-F45FEBE58055}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play15_Applause_03_Amb" ID="{95D84C06-1CB7-4E5D-A33A-1144146AA551}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play12_AudienceAppears_Music" ID="{7303C117-A4BB-4E6D-AA28-323CAAD5536A}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play11_Scene_Amb" ID="{3B485E99-CCC6-4EFE-AAF2-D4E8266CF45C}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play06_CharacterChange_OS" ID="{5C4998EF-50DF-4F52-9AF7-3BBE11E2D3BA}" WorkUnitID="{6E567DB5-E3D6-4195-B7AB-B8649DF36871}" Origin="Manual" Filter="7"/>

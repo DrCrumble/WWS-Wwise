@@ -674,6 +674,24 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play15_Applause_03_Amb" ID="{95D84C06-1CB7-4E5D-A33A-1144146AA551}">
+							<ChildrenList>
+								<Action Name="" ID="{16C6AB29-8542-4C4E-9335-963FA2FA3423}" ShortID="277623455">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="200"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SaloonCrowd" ID="{0F427D0B-1592-4429-A415-DDDA64F82368}" WorkUnitID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="OS" ID="{D53D42B9-30FE-4450-BFF2-14F28CF4EDAC}" ShortID="104342083">
@@ -771,16 +789,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SaloonCrowd" ID="{0F427D0B-1592-4429-A415-DDDA64F82368}" WorkUnitID="{F98C2740-7C37-445C-988B-BDFCB961B3BE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{AA430CEB-9945-4E00-8D01-C2D15208CD7A}" ShortID="781359078">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Applause_03" ID="{DF23B6A6-D9C0-45B5-91D4-ECD27536963F}" WorkUnitID="{E81734E6-C624-40F7-B645-1F192F02D52A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
